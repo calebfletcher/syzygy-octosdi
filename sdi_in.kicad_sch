@@ -1625,7 +1625,7 @@
 	(text_box "Decoupling"
 		(exclude_from_sim no)
 		(at 190.5 59.69 0)
-		(size 27.94 33.02)
+		(size 49.53 33.02)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1707,10 +1707,28 @@
 		(uuid "9132269e-441a-4ce1-872b-8fb11e754c8b")
 	)
 	(junction
+		(at 215.9 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0024c98-7b69-4e56-9da9-aa87639024fe")
+	)
+	(junction
+		(at 215.9 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2a14fb7-148c-4a4b-90c3-ffa6a4952542")
+	)
+	(junction
 		(at 143.51 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b876f11f-d7eb-4e01-b7e7-d460693655fb")
+	)
+	(junction
+		(at 204.47 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c61f45a7-19f6-48fa-ad74-d00bb1fa5f13")
 	)
 	(junction
 		(at 77.47 68.58)
@@ -1735,6 +1753,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e72ce8f6-9578-4f7e-b35f-79b2bf6d3305")
+	)
+	(junction
+		(at 204.47 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0e7373e-f063-4d61-8bb2-5f0ecd2f3e33")
 	)
 	(junction
 		(at 105.41 85.09)
@@ -1774,6 +1798,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 147.32) (xy 135.89 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12101350-5e01-423f-ad10-72f462fe0e31")
+	)
+	(wire
+		(pts
 			(xy 166.37 73.66) (xy 163.83 73.66)
 		)
 		(stroke
@@ -1784,13 +1818,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 137.16) (xy 138.43 137.16)
+			(xy 137.16 137.16) (xy 135.89 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "17ba9fec-6f78-49e7-b4e8-cb6dd8c2b729")
+	)
+	(wire
+		(pts
+			(xy 227.33 71.12) (xy 215.9 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a8a1960-0cd7-41fd-8179-222b7f5b21e5")
 	)
 	(wire
 		(pts
@@ -1804,7 +1848,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 80.01) (xy 204.47 82.55)
+			(xy 204.47 80.01) (xy 204.47 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1864,6 +1908,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 80.01) (xy 215.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3260dbc8-5947-4956-af59-49ba7986bd20")
+	)
+	(wire
+		(pts
 			(xy 140.97 86.36) (xy 143.51 86.36)
 		)
 		(stroke
@@ -1901,6 +1955,16 @@
 			(type default)
 		)
 		(uuid "3e27990b-79b2-4bd4-9b82-cadf4ea7b8e9")
+	)
+	(wire
+		(pts
+			(xy 204.47 71.12) (xy 204.47 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec6d630-40af-42ac-848c-a9f13bed8dde")
 	)
 	(wire
 		(pts
@@ -1984,7 +2048,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 146.05) (xy 162.56 146.05)
+			(xy 165.1 142.24) (xy 163.83 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2114,6 +2178,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 81.28) (xy 215.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ea4f0e-a105-4093-ae4f-9b1be8c427d2")
+	)
+	(wire
+		(pts
 			(xy 140.97 88.9) (xy 143.51 88.9)
 		)
 		(stroke
@@ -2134,6 +2208,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 81.28) (xy 204.47 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c588c0f-debf-46d8-9810-6059fa2bc2e6")
+	)
+	(wire
+		(pts
 			(xy 60.96 66.04) (xy 60.96 63.5)
 		)
 		(stroke
@@ -2141,6 +2225,16 @@
 			(type default)
 		)
 		(uuid "9d5eeb60-7576-4981-b8cb-f68121d9031b")
+	)
+	(wire
+		(pts
+			(xy 204.47 81.28) (xy 204.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a061246b-62bd-4118-bce2-b852260a80b6")
 	)
 	(wire
 		(pts
@@ -2274,7 +2368,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 69.85) (xy 204.47 72.39)
+			(xy 204.47 69.85) (xy 204.47 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2344,6 +2438,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 72.39) (xy 227.33 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da93296a-c5e7-4f79-86c1-a2bfa1d57a97")
+	)
+	(wire
+		(pts
 			(xy 67.31 76.2) (xy 67.31 68.58)
 		)
 		(stroke
@@ -2364,13 +2468,23 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 146.05) (xy 154.94 146.05)
+			(xy 154.94 142.24) (xy 156.21 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dccc9780-aca6-41b5-a82b-5f70fdc23987")
+	)
+	(wire
+		(pts
+			(xy 215.9 71.12) (xy 204.47 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e02ca67f-b336-4a96-b7c4-0d8018578456")
 	)
 	(wire
 		(pts
@@ -2414,7 +2528,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 137.16) (xy 138.43 138.43)
+			(xy 135.89 137.16) (xy 135.89 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2424,7 +2538,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 146.05) (xy 138.43 147.32)
+			(xy 135.89 146.05) (xy 135.89 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2472,9 +2586,29 @@
 		)
 		(uuid "f609f6a1-f221-40ed-bca4-d3a69efdc65f")
 	)
+	(wire
+		(pts
+			(xy 227.33 80.01) (xy 227.33 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e88436-d6e0-45e7-b279-896f9d731557")
+	)
+	(wire
+		(pts
+			(xy 215.9 71.12) (xy 215.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faa4f34b-7690-4904-9d4b-af07e098c502")
+	)
 	(hierarchical_label "MUTE"
 		(shape input)
-		(at 163.83 146.05 0)
+		(at 165.1 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2485,7 +2619,7 @@
 	)
 	(hierarchical_label "~{CD}"
 		(shape input)
-		(at 153.67 146.05 180)
+		(at 154.94 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2496,7 +2630,7 @@
 	)
 	(hierarchical_label "MUTE"
 		(shape input)
-		(at 139.7 137.16 0)
+		(at 137.16 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2582,6 +2716,17 @@
 		)
 		(uuid "b636bba4-315d-48b2-b591-ca5bebc9c30f")
 	)
+	(hierarchical_label "~{VIO_GOOD}"
+		(shape input)
+		(at 137.16 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5f4ff6f-7ec6-4b2b-be6a-52c1b9ad95ca")
+	)
 	(symbol
 		(lib_id "power:+3V3")
 		(at 143.51 66.04 0)
@@ -2594,7 +2739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09db05bc-25dc-4c96-a8a1-461b7a5406bd")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 143.51 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2654,19 +2799,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR078")
+					(reference "#PWR097")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR086")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR032")
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2683,7 +2828,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17e7fcb9-1fed-4e29-8d1b-11f8ce3c4c49")
-		(property "Reference" "R46"
+		(property "Reference" "R7"
 			(at 119.38 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2747,19 +2892,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R48")
+					(reference "R53")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R49")
+					(reference "R60")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R47")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R46")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2777,7 +2922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "234625dc-14bb-4c2a-83e6-c96eeca1baab")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR015"
 			(at 121.92 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -2837,19 +2982,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR0102")
+					(reference "#PWR095")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR0103")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR0101")
+					(reference "#PWR025")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR0100")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2866,7 +3011,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "260327e5-583f-4409-af7a-b143508117f6")
-		(property "Reference" "C10"
+		(property "Reference" "C6"
 			(at 160.02 67.564 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2886,7 +3031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 163.83 72.6948 0)
 			(hide yes)
 			(show_name no)
@@ -2936,11 +3081,11 @@
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C25")
+					(reference "C13")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "C10")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2958,7 +3103,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ff131b4-5fb4-40df-b73d-58248c05f675")
-		(property "Reference" "C15"
+		(property "Reference" "C4"
 			(at 93.98 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3028,11 +3173,11 @@
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C23")
+					(reference "C11")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "C15")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3040,7 +3185,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 146.05 90)
+		(at 160.02 142.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3049,8 +3194,8 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "377716b2-128f-4469-9ea3-9a407a6b5e9d")
-		(property "Reference" "R54"
-			(at 160.655 149.2249 90)
+		(property "Reference" "R9"
+			(at 161.925 145.4149 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3061,7 +3206,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 160.655 151.7649 90)
+			(at 161.925 147.9549 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3072,7 +3217,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 158.75 147.828 90)
+			(at 160.02 144.018 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3083,7 +3228,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 146.05 0)
+			(at 160.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3094,7 +3239,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 146.05 0)
+			(at 160.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3113,19 +3258,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R56")
-					(unit 1)
-				)
-				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R57")
-					(unit 1)
-				)
-				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
 					(reference "R55")
 					(unit 1)
 				)
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
+					(reference "R62")
+					(unit 1)
+				)
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
+					(reference "R16")
+					(unit 1)
+				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R54")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3143,7 +3288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a16c3ca-4223-4e08-bdfa-61bd8f6b2da1")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 105.41 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3203,19 +3348,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR077")
+					(reference "#PWR094")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR085")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR031")
+					(reference "#PWR024")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3303,7 +3448,7 @@
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "L3")
+					(reference "L2")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
@@ -3325,7 +3470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a5f62d9-9497-44fa-891e-beb652b68653")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 93.98 150.1774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3408,11 +3553,11 @@
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3430,7 +3575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69fe48e5-2b3e-4ef1-a87e-37ca39cd1234")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 72.39 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3492,11 +3637,11 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R33")
+					(reference "R49")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R37")
+					(reference "R56")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
@@ -3504,7 +3649,7 @@
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3522,7 +3667,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72de72b2-db65-4f0d-8607-526ad8ba4ddb")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 160.02 84.836 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3542,7 +3687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 163.83 79.7052 0)
 			(hide yes)
 			(show_name no)
@@ -3592,11 +3737,11 @@
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C26")
+					(reference "C14")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "C11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3613,7 +3758,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7bd3f9cc-8d58-402c-8ab9-e4b8519952e5")
-		(property "Reference" "C12"
+		(property "Reference" "C5"
 			(at 120.6499 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3624,7 +3769,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1u"
 			(at 123.1899 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3635,7 +3780,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 125.73 95.5548 0)
 			(hide yes)
 			(show_name no)
@@ -3685,11 +3830,11 @@
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C24")
+					(reference "C12")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "C12")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -3706,7 +3851,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ef93fdf-028a-4dfe-8397-18267808c669")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 112.522 64.516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3854,11 +3999,11 @@
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3876,7 +4021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82927def-5770-48a2-9b02-d1077d60aba2")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR010"
 			(at 60.96 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3936,19 +4081,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR073")
+					(reference "#PWR090")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR081")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR027")
+					(reference "#PWR020")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR05")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3966,7 +4111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82d2fc21-cf70-451d-88cb-166bbdbfc457")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR011"
 			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4026,19 +4171,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR074")
+					(reference "#PWR091")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR082")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR028")
+					(reference "#PWR021")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR016")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4116,15 +4261,15 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR079")
+					(reference "#PWR098")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR087")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR033")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
@@ -4146,7 +4291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e2ab30e-a0b4-46c1-8f38-53688995524e")
-		(property "Reference" "C14"
+		(property "Reference" "C3"
 			(at 93.98 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4216,11 +4361,11 @@
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C22")
+					(reference "C10")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "C14")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4228,7 +4373,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 138.43 142.24 0)
+		(at 135.89 142.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4237,8 +4382,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0fd25e5-0506-41a6-9b2c-c3178710283b")
-		(property "Reference" "R50"
-			(at 135.89 140.9699 0)
+		(property "Reference" "R8"
+			(at 133.35 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4249,7 +4394,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 135.89 143.5099 0)
+			(at 133.35 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4260,7 +4405,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 136.652 142.24 90)
+			(at 134.112 142.24 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4271,7 +4416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 142.24 0)
+			(at 135.89 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4282,7 +4427,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 138.43 142.24 0)
+			(at 135.89 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4301,19 +4446,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R52")
+					(reference "R54")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R53")
+					(reference "R61")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R51")
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R50")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4331,7 +4476,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a7fa0d61-19ac-43b0-ac2f-d8b5de0196a3")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 72.39 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4401,11 +4546,11 @@
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4424,7 +4569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b79af860-3a19-465a-9274-d93c8cf6e61f")
-		(property "Reference" "R3"
+		(property "Reference" "R6"
 			(at 92.71 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4488,19 +4633,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R36")
+					(reference "R52")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R40")
+					(reference "R59")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4630,7 +4775,7 @@
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "RF3")
+					(reference "RF2")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
@@ -4652,7 +4797,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cee391b6-6c6d-426b-a460-887a6ec4b4f4")
-		(property "Reference" "C2"
+		(property "Reference" "C8"
 			(at 208.28 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4724,19 +4869,20 @@
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C7")
+					(reference "C15")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "C2")
+					(reference "C8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 138.43 147.32 0)
+		(lib_id "Device:C")
+		(at 227.33 76.2 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4744,31 +4890,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfd8327d-ec91-4588-b430-ef8c131d5ee9")
-		(property "Reference" "#PWR0104"
-			(at 138.43 153.67 0)
-			(hide yes)
+		(uuid "d11edcc7-3b86-492c-9cb4-6626e277c327")
+		(property "Reference" "C77"
+			(at 231.14 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 138.43 152.4 0)
+		(property "Value" "100n"
+			(at 231.14 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 138.43 147.32 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 226.3648 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4779,7 +4925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 147.32 0)
+			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4789,8 +4935,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 147.32 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 227.33 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4799,26 +4945,29 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "03fa7f22-60d6-4e80-8384-810b4e6ac415")
 		)
 		(pin "1"
-			(uuid "a60828b1-08c7-4bda-8f19-12d35e22dd60")
+			(uuid "57648c10-f724-4a43-a2d1-cb810123e094")
 		)
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR0106")
+					(reference "C79")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR0107")
+					(reference "C80")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR0105")
+					(reference "C78")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR0104")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -4836,7 +4985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d75b8c9d-dc30-4606-bd85-87f14d54570a")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR019"
 			(at 204.47 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4896,19 +5045,113 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR080")
+					(reference "#PWR099")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR088")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR034")
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR04")
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 215.9 76.2 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dee3527a-f0ee-4807-9241-dd56a55747e7")
+		(property "Reference" "C73"
+			(at 219.71 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 219.71 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 214.9348 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 215.9 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f9756898-9315-4499-bda8-fa01bdb27cf0")
+		)
+		(pin "1"
+			(uuid "95cbffef-c9d3-4e9d-a9c3-59a9c7841918")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
+					(reference "C75")
+					(unit 1)
+				)
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
+					(reference "C76")
+					(unit 1)
+				)
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
+					(reference "C74")
+					(unit 1)
+				)
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -4926,7 +5169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e18c990d-fa60-41d5-b05a-0a473e2e98d4")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR013"
 			(at 90.17 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -4986,19 +5229,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR076")
+					(reference "#PWR093")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR084")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR030")
+					(reference "#PWR023")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR024")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5016,7 +5259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebf0fadb-87d3-4bdd-9a06-af4eb9ae49b9")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR012"
 			(at 87.63 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5076,19 +5319,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR075")
+					(reference "#PWR092")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR083")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR029")
+					(reference "#PWR022")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR015")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5167,15 +5410,15 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R35")
+					(reference "R51")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R39")
+					(reference "R58")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
@@ -5197,7 +5440,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc12629e-57b0-4251-b000-c2ed366375ca")
-		(property "Reference" "R6"
+		(property "Reference" "R4"
 			(at 74.93 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5261,19 +5504,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R34")
+					(reference "R50")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R38")
+					(reference "R57")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R12")
+					(reference "R11")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R6")
+					(reference "R4")
 					(unit 1)
 				)
 			)

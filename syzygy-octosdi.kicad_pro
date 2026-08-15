@@ -260,7 +260,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1155700|508000|fdee5d13-20ee-4910-90a0-baef0515798d|e1cb94a8-3ff3-492f-9cd1-57b44f4b6d1c|/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274|/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274|/cb0cdcc9-6b9b-4b74-8146-9043de7999b1",
+        "Reading VIO on an ADC."
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -654,7 +659,7 @@
         "uuid": "cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
       }
     ],
-    "used_designators": "D1-12,#PWR1-130,C1-97,RF1-12,U1-15,R1-69,CN1,H1-2,X1,L1-12,TP1-3,TP5-7,J1",
+    "used_designators": "D1-12,#PWR1-130,C1-97,RF1-12,U1-15,R1-82,CN1,H1-2,X1,L1-12,TP1-3,TP5-7,J1",
     "variants": []
   },
   "sheets": [

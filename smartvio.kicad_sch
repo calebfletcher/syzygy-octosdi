@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "5330f7a1-18c0-4c1e-bf76-a8a44d971e66")
+	(uuid "98085057-d5e3-4437-86ef-eca20f57b633")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -1945,6 +1945,26 @@
 		)
 		(uuid "34604bcf-ce56-4ab4-8dc7-5a649e164e01")
 	)
+	(text_box "VIO Good"
+		(exclude_from_sim no)
+		(at 129.54 106.68 0)
+		(size 64.77 43.18)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5d1914d3-bd1b-47cb-ad28-7f63a590156e")
+	)
 	(text_box "MCU LEDs"
 		(exclude_from_sim no)
 		(at 35.56 106.68 0)
@@ -2068,10 +2088,6 @@
 		(uuid "1f1e61cb-8c96-4d35-8f17-5e067823aeca")
 	)
 	(no_connect
-		(at 115.57 55.88)
-		(uuid "2fa668ca-f989-459a-9e7a-abc4b4561f26")
-	)
-	(no_connect
 		(at 115.57 63.5)
 		(uuid "34e5412d-c215-441f-954e-971f094e7137")
 	)
@@ -2100,16 +2116,8 @@
 		(uuid "4c6c06d7-fab2-469a-b005-cd98cfe1a553")
 	)
 	(no_connect
-		(at 115.57 53.34)
-		(uuid "4e9ef9da-5786-4607-8e82-7cf7fdcfb109")
-	)
-	(no_connect
 		(at 115.57 81.28)
 		(uuid "7b342299-f7b4-4931-991b-3e044bf5041e")
-	)
-	(no_connect
-		(at 115.57 50.8)
-		(uuid "8adbc883-fc84-493a-9ae1-fb651744de08")
 	)
 	(no_connect
 		(at 115.57 71.12)
@@ -2161,16 +2169,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 48.26) (xy 116.84 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06a9c52a-f1ed-4800-bed1-cc87a3b26eb0")
-	)
-	(wire
-		(pts
 			(xy 111.76 121.92) (xy 111.76 120.65)
 		)
 		(stroke
@@ -2201,6 +2199,36 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 124.46) (xy 138.43 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff109c4-99c0-4f17-9a93-32ede33ea5c6")
+	)
+	(wire
+		(pts
+			(xy 116.84 55.88) (xy 115.57 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ddf026d-f941-4d70-95bc-386150dd8a61")
+	)
+	(wire
+		(pts
+			(xy 162.56 130.81) (xy 162.56 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc4dc57-d6a0-4665-896c-f219be3008d2")
+	)
+	(wire
+		(pts
 			(xy 111.76 128.27) (xy 111.76 127)
 		)
 		(stroke
@@ -2218,6 +2246,26 @@
 			(type default)
 		)
 		(uuid "3238b87f-d326-4273-b0b4-2144ba84a0c6")
+	)
+	(wire
+		(pts
+			(xy 138.43 134.62) (xy 138.43 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "395322c4-73c3-4805-bbc4-2c46d8c6c1bd")
+	)
+	(wire
+		(pts
+			(xy 162.56 121.92) (xy 162.56 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f38e93e-f54c-4161-bc8b-ab3419b2eb05")
 	)
 	(wire
 		(pts
@@ -2281,6 +2329,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 53.34) (xy 115.57 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ce10e2-53ea-45c5-89b7-e1cd2bafee22")
+	)
+	(wire
+		(pts
 			(xy 102.87 128.27) (xy 102.87 129.54)
 		)
 		(stroke
@@ -2311,6 +2369,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 134.62) (xy 182.88 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77bdbf46-d7e7-4c90-bda6-84807a3e1384")
+	)
+	(wire
+		(pts
 			(xy 43.18 167.64) (xy 50.8 167.64)
 		)
 		(stroke
@@ -2338,6 +2406,16 @@
 			(type default)
 		)
 		(uuid "7cad5a7e-3a95-4cde-992b-8fe1d31f1be1")
+	)
+	(wire
+		(pts
+			(xy 139.7 134.62) (xy 138.43 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d592076-6226-4711-9e29-75bfe6e7b0ee")
 	)
 	(bus
 		(pts
@@ -2371,6 +2449,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 114.3) (xy 182.88 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d31754-c037-4542-8b50-573c006d0b0d")
+	)
+	(wire
+		(pts
 			(xy 80.01 71.12) (xy 67.31 71.12)
 		)
 		(stroke
@@ -2378,6 +2466,16 @@
 			(type default)
 		)
 		(uuid "9ae5d5cd-2e6a-4361-8cee-c8c2365eb790")
+	)
+	(wire
+		(pts
+			(xy 116.84 50.8) (xy 115.57 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e82e262-d45a-4381-8df4-2cc31900e1c5")
 	)
 	(wire
 		(pts
@@ -2408,6 +2506,16 @@
 			(type default)
 		)
 		(uuid "b826f29f-813b-4d51-8906-5c6f0870bb33")
+	)
+	(wire
+		(pts
+			(xy 182.88 124.46) (xy 182.88 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8a9398d-d003-440d-ba08-43ce6c72af51")
 	)
 	(wire
 		(pts
@@ -2491,6 +2599,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 121.92) (xy 162.56 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf101c63-3178-48e6-b31c-605866790f7d")
+	)
+	(wire
+		(pts
 			(xy 107.95 173.99) (xy 105.41 173.99)
 		)
 		(stroke
@@ -2508,6 +2626,16 @@
 			(type default)
 		)
 		(uuid "d36ccadf-26e7-412e-9793-f667fe888205")
+	)
+	(wire
+		(pts
+			(xy 180.34 114.3) (xy 182.88 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9aa5a61-ea1c-48d1-9cd5-6e7d58a1dd0e")
 	)
 	(wire
 		(pts
@@ -2548,6 +2676,16 @@
 			(type default)
 		)
 		(uuid "f17ab82f-d57f-4a6b-b1f8-550960c30b6d")
+	)
+	(wire
+		(pts
+			(xy 115.57 48.26) (xy 116.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e1765b-fd25-4209-9ac6-ec60428f08a7")
 	)
 	(wire
 		(pts
@@ -2700,6 +2838,28 @@
 		)
 		(uuid "1d64ae25-7c0c-4d1d-93f4-2ba72197f3f5")
 	)
+	(hierarchical_label "~{VIO_GOOD}"
+		(shape output)
+		(at 139.7 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2561a355-7559-4b24-96c2-8964277553cf")
+	)
+	(hierarchical_label "~{VIO_GOOD}"
+		(shape output)
+		(at 116.84 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40058aa4-ebc3-4feb-9fb0-1ecf3834c26d")
+	)
 	(hierarchical_label "R_GA"
 		(shape input)
 		(at 105.41 173.99 180)
@@ -2711,8 +2871,30 @@
 		)
 		(uuid "44e7b8a7-6e8b-4671-b509-6b7e15288135")
 	)
+	(hierarchical_label "VIO_GOOD"
+		(shape output)
+		(at 161.29 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b1178a3-debb-4fdc-8954-bcb23fb61fe3")
+	)
+	(hierarchical_label "VIO_GOOD"
+		(shape output)
+		(at 116.84 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6321df30-82ea-4b28-b94d-30c3a71be632")
+	)
 	(hierarchical_label "I2C{I2C}"
-		(shape input)
+		(shape bidirectional)
 		(at 59.69 73.66 180)
 		(effects
 			(font
@@ -2721,6 +2903,28 @@
 			(justify right)
 		)
 		(uuid "72bc11bc-c333-4f0a-b52f-202dc76faad7")
+	)
+	(hierarchical_label "VIO_GOOD"
+		(shape output)
+		(at 180.34 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a397bcb0-6c37-42d0-b994-63cacc2ee3fc")
+	)
+	(hierarchical_label "VIO"
+		(shape input)
+		(at 116.84 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4536abb-7e14-4837-92ab-ae5bc7fb22df")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -2734,7 +2938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08020af6-9958-4e6c-9d72-9c6041a64fde")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 52.07 57.6579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2795,7 +2999,85 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
-					(reference "TP2")
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1434f165-db7f-49cb-867f-b8ad03e4a6fe")
+		(property "Reference" "#PWR016"
+			(at 162.56 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "909a29a0-86bd-4da2-a48c-d37a83c341fd")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -2924,6 +3206,7 @@
 		)
 		(pin "7"
 			(uuid "fdee5d13-20ee-4910-90a0-baef0515798d")
+			(alternate "ADC1_IN1")
 		)
 		(pin "16"
 			(uuid "8bf414ae-028c-42fa-9c6e-c7d65f4bdd73")
@@ -2962,6 +3245,98 @@
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 182.88 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1bb2559b-ecf7-4f3b-b5a4-0099da9ff7d1")
+		(property "Reference" "D11"
+			(at 186.69 131.1274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 186.69 133.6674 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 182.88 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 182.88 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 182.88 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8909bbfe-863c-4ff2-9a52-ce8939a043a1")
+		)
+		(pin "2"
+			(uuid "d7407aa8-4608-4322-80ed-5f03270d8b01")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -3050,6 +3425,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 138.43 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23bca873-5f37-4ad3-ace8-ae7d795b05dd")
+		(property "Reference" "R67"
+			(at 135.89 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 135.89 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 136.652 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 138.43 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "affcf25e-78a8-41f8-9632-827538c8ce31")
+		)
+		(pin "2"
+			(uuid "585445de-aca9-4e83-8d67-7604f71b9788")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 102.87 119.38 0)
 		(unit 1)
@@ -3061,7 +3517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "289e1c53-bc15-4ee5-9b81-88d4c5e8c06a")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0117"
 			(at 102.87 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -3121,7 +3577,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
-					(reference "#PWR097")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -3139,7 +3595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3767006b-b50f-40cb-ada7-15f17dda4fac")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0118"
 			(at 102.87 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -3199,7 +3655,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
-					(reference "#PWR095")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -3217,7 +3673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fedd9e3-4fcb-43fd-8d3b-68b835079ef4")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0112"
 			(at 58.42 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -3277,7 +3733,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
-					(reference "#PWR090")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -3295,7 +3751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4783b03d-9951-4123-88b8-50644c8de96a")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0115"
 			(at 97.79 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3355,7 +3811,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
-					(reference "#PWR094")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -3464,7 +3920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5831fd75-7c7f-46dc-aac8-83fbdf904ecc")
-		(property "Reference" "R41"
+		(property "Reference" "R63"
 			(at 60.96 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3528,7 +3984,88 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
-					(reference "R41")
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 182.88 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "58624828-ad8b-40c3-b6a5-44271426775e")
+		(property "Reference" "R70"
+			(at 185.42 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4k7"
+			(at 185.42 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 181.102 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 182.88 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "338b53fe-1027-4594-b095-e0054ad9d18d")
+		)
+		(pin "2"
+			(uuid "0cfead13-9c54-44d7-b742-8849cc8764d0")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -3627,7 +4164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c9cbc52-5980-48d9-8327-2486cd5ea91d")
-		(property "Reference" "R45"
+		(property "Reference" "R65"
 			(at 110.49 166.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3691,7 +4228,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
-					(reference "R45")
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -3801,7 +4338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8cc5bc09-ddb7-4240-9a76-9a347f46a4b0")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0110"
 			(at 43.18 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -3861,7 +4398,88 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
-					(reference "#PWR098")
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 162.56 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9656ef6f-aeed-4eb8-8817-1522a3e76564")
+		(property "Reference" "R66"
+			(at 160.02 125.7299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 160.02 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 160.782 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 162.56 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70b7b721-7d3d-4e4a-ac0f-fb77954eb5a4")
+		)
+		(pin "2"
+			(uuid "f26d09d8-dc1a-435e-ae44-a2da05672206")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -3879,7 +4497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97e41f35-5c53-4453-9215-830755a4b55f")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0113"
 			(at 72.39 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3939,7 +4557,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
-					(reference "#PWR091")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -3957,7 +4575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2e39ea8-4a5e-4bad-8683-21465337b585")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 60.96 57.6579 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4018,7 +4636,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4036,7 +4654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7c09720-86d4-4dd8-a983-227bd9b52388")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0114"
 			(at 76.2 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -4096,7 +4714,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
-					(reference "#PWR092")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -4115,7 +4733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2bdba8a-4921-4aa7-b48c-452c6a47716e")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0111"
 			(at 43.18 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -4174,7 +4792,163 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
-					(reference "#PWR096")
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.88 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba6c60da-1f0f-4b57-b591-566a125c6bdf")
+		(property "Reference" "#PWR0128"
+			(at 182.88 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9676a6d3-b041-4bc7-9f6b-75699985d101")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 138.43 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0a90402-b7b2-4cd8-805f-39ac03c0cbed")
+		(property "Reference" "#PWR0127"
+			(at 138.43 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 138.43 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 138.43 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f602c1fa-038d-42dd-aa2d-715214e01d25")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -4192,7 +4966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0e0d0a8-38c2-470f-b760-3081da368773")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0116"
 			(at 97.79 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4252,7 +5026,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
-					(reference "#PWR093")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -4270,7 +5044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c80218ae-c3df-423a-b7f8-9a7632d235ce")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0119"
 			(at 107.95 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -4330,7 +5104,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
-					(reference "#PWR099")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -4521,7 +5295,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e571bcd4-1157-439a-86b8-f54dd1834f65")
-		(property "Reference" "R43"
+		(property "Reference" "R64"
 			(at 78.74 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4585,7 +5359,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/731e7cbd-3c26-4319-8367-0b2702130274"
-					(reference "R43")
+					(reference "R64")
 					(unit 1)
 				)
 			)
