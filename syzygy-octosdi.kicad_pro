@@ -659,7 +659,7 @@
         "uuid": "cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
       }
     ],
-    "used_designators": "D1-12,#PWR1-130,C1-97,RF1-12,U1-15,R1-82,CN1,H1-2,X1,L1-12,TP1-3,TP5-7,J1-9",
+    "used_designators": "D1-14,#PWR1-168,C1-113,RF1-12,U1-15,R1-111,CN1,H1-2,X1,L1-12,TP1-3,TP5-7,J1-12",
     "variants": []
   },
   "sheets": [
@@ -672,40 +672,40 @@
       "SDI In 1"
     ],
     [
-      "0bcbd417-5be8-4639-a61a-81f6ad96039a",
+      "ea3c828a-63a4-442f-a83e-aa076b03c354",
       "SDI In 2"
     ],
     [
-      "cccda6b1-42d1-4a1e-8697-97fbace47563",
-      "SDI Out 1"
+      "c127d1e7-704d-4e04-b0af-9df49e567217",
+      "SDI In 3"
     ],
     [
-      "9e6d058e-a204-424d-9594-e09c1c28f832",
-      "SDI Out 2"
+      "b3f0f335-2d04-4f1e-84c2-2e7e3483d837",
+      "SDI In 4"
     ],
     [
       "86247bb6-a200-4434-96fd-e477d61cd494",
-      "Quad"
+      "Inputs"
     ],
     [
       "7952d4e7-438b-4019-af07-2f77390b2cbe",
-      "Quad1"
+      "Outputs"
     ],
     [
       "9e6d058e-a204-424d-9594-e09c1c28f832",
-      "SDI Out 2"
-    ],
-    [
-      "cccda6b1-42d1-4a1e-8697-97fbace47563",
       "SDI Out 1"
     ],
     [
-      "0bcbd417-5be8-4639-a61a-81f6ad96039a",
-      "SDI In 2"
+      "3e5c322e-a0da-44e4-bb68-a12efcaa8233",
+      "SDI Out 2"
     ],
     [
-      "a3920843-460e-454a-bb55-c423637c5275",
-      "SDI In 1"
+      "bc2abbe9-3a00-4a3e-a978-1cf8dc864dfc",
+      "SDI Out 3"
+    ],
+    [
+      "092c5988-f380-4ff7-8d4b-e15dc73934e4",
+      "SDI Out 4"
     ],
     [
       "731e7cbd-3c26-4319-8367-0b2702130274",
