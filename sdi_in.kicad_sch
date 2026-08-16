@@ -5,6 +5,192 @@
 	(uuid "8057411c-9cdb-496e-b0a0-d61fd557cc47")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -669,254 +855,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "JLCImport:DOSIN-801-0057"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "RF"
-				(at 0 -0.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DOSIN-801-0057"
-				(at 0 -4.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "JLCImport:DOSIN-801-0057"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2007241234_dosinconn-DOSIN-801-0057_C709675.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "-40℃~+110℃ 1 3GHz 75Ω BNC Board Side Positive Pin 插件 Coaxial Connectors (RF) ROHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C709675"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "dosinconn"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part" "DOSIN-801-0057"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "ANT-TH_DOSIN-801-0057 C709675 DOSIN-801-0057 dosinconn"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DOSIN-801-0057_0_1"
-				(polyline
-					(pts
-						(xy -2.54 7.62) (xy 2.54 7.62) (xy 0 2.54) (xy -2.54 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 90)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 90)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 90)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1689,18 +1627,6 @@
 		(uuid "0171f8ef-0956-4f07-b3b0-13f1a38b5da1")
 	)
 	(junction
-		(at 60.96 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ab555b4-1696-4c7a-a0e7-08f04123cfcc")
-	)
-	(junction
-		(at 60.96 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21082653-8cc5-4950-84b6-68b52afb59cf")
-	)
-	(junction
 		(at 105.41 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1749,12 +1675,6 @@
 		(uuid "de6bc9a4-35ab-44fb-9127-ffca18689917")
 	)
 	(junction
-		(at 60.96 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e72ce8f6-9578-4f7e-b35f-79b2bf6d3305")
-	)
-	(junction
 		(at 204.47 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1775,16 +1695,6 @@
 	(no_connect
 		(at 140.97 83.82)
 		(uuid "1f3a9f42-dee3-4e1b-956c-f0d1d7fba458")
-	)
-	(wire
-		(pts
-			(xy 59.69 63.5) (xy 60.96 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08237589-92c1-4e5c-90a5-639bb6894df6")
 	)
 	(wire
 		(pts
@@ -2218,16 +2128,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 66.04) (xy 60.96 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d5eeb60-7576-4981-b8cb-f68121d9031b")
-	)
-	(wire
-		(pts
 			(xy 204.47 81.28) (xy 204.47 82.55)
 		)
 		(stroke
@@ -2265,16 +2165,6 @@
 			(type default)
 		)
 		(uuid "a221a04f-4b3f-4e4a-861d-59dd9b65af73")
-	)
-	(wire
-		(pts
-			(xy 59.69 73.66) (xy 60.96 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aad6a99f-d5b4-4400-be02-64929d8ac91e")
 	)
 	(wire
 		(pts
@@ -2328,16 +2218,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 71.12) (xy 60.96 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb9d413e-9afc-466b-8bef-766b9bfaece0")
-	)
-	(wire
-		(pts
 			(xy 90.17 143.51) (xy 90.17 146.05)
 		)
 		(stroke
@@ -2375,16 +2255,6 @@
 			(type default)
 		)
 		(uuid "c7a7a8e4-fe19-45ee-9ecf-4b8ed2d49ac1")
-	)
-	(wire
-		(pts
-			(xy 60.96 71.12) (xy 60.96 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccd093cd-c245-47c8-838a-b7c848782064")
 	)
 	(wire
 		(pts
@@ -2458,16 +2328,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 73.66) (xy 60.96 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc4ddb54-aa4c-4d3a-9efe-0f045c9e3573")
-	)
-	(wire
-		(pts
 			(xy 154.94 142.24) (xy 156.21 142.24)
 		)
 		(stroke
@@ -2498,13 +2358,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 66.04) (xy 60.96 66.04)
+			(xy 54.61 74.93) (xy 54.61 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2ad7ceb-b439-42f1-96c8-109933f1d157")
+		(uuid "e51a046a-919e-4bc9-b492-9c235a25cf6e")
 	)
 	(wire
 		(pts
@@ -2515,16 +2375,6 @@
 			(type default)
 		)
 		(uuid "ebce67fe-7422-4d22-84a2-0fd9d514305e")
-	)
-	(wire
-		(pts
-			(xy 60.96 66.04) (xy 60.96 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec3ea9d4-9301-40d8-b33e-dc63e7fe9ff4")
 	)
 	(wire
 		(pts
@@ -2799,15 +2649,15 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR097")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR0107")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
@@ -2828,7 +2678,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17e7fcb9-1fed-4e29-8d1b-11f8ce3c4c49")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 119.38 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2892,19 +2742,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R53")
+					(reference "R67")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R60")
+					(reference "R74")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -2922,7 +2772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "234625dc-14bb-4c2a-83e6-c96eeca1baab")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 121.92 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -2982,11 +2832,11 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR095")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR0105")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
@@ -2994,7 +2844,7 @@
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3073,15 +2923,15 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C56")
+					(reference "C68")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "C63")
+					(reference "C77")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
@@ -3165,15 +3015,15 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C54")
+					(reference "C66")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "C61")
+					(reference "C75")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
@@ -3194,7 +3044,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "377716b2-128f-4469-9ea3-9a407a6b5e9d")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 161.925 145.4149 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3258,19 +3108,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R55")
+					(reference "R69")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R62")
+					(reference "R76")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3288,7 +3138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a16c3ca-4223-4e08-bdfa-61bd8f6b2da1")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 105.41 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3348,11 +3198,11 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR094")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR0104")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
@@ -3360,7 +3210,7 @@
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3575,7 +3425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69fe48e5-2b3e-4ef1-a87e-37ca39cd1234")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 72.39 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3637,19 +3487,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R49")
+					(reference "R63")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R56")
+					(reference "R70")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3729,15 +3579,15 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C57")
+					(reference "C69")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "C64")
+					(reference "C78")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C14")
+					(reference "C16")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
@@ -3822,15 +3672,15 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C55")
+					(reference "C67")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "C62")
+					(reference "C76")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C12")
+					(reference "C14")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
@@ -4011,7 +3861,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 74.93 0)
+		(at 54.61 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4021,8 +3871,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82927def-5770-48a2-9b02-d1077d60aba2")
-		(property "Reference" "#PWR010"
-			(at 60.96 81.28 0)
+		(property "Reference" "#PWR011"
+			(at 54.61 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4033,7 +3883,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 80.01 0)
+			(at 54.61 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4043,7 +3893,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 74.93 0)
+			(at 54.61 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4054,7 +3904,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 74.93 0)
+			(at 54.61 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4065,7 +3915,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 74.93 0)
+			(at 54.61 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4081,11 +3931,11 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR090")
+					(reference "#PWR099")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR0100")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
@@ -4093,7 +3943,7 @@
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -4111,7 +3961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82d2fc21-cf70-451d-88cb-166bbdbfc457")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4171,11 +4021,11 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR091")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR0101")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
@@ -4183,7 +4033,101 @@
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR011")
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 54.61 68.58 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92998f2b-200c-452e-a954-8ed68eacdc66")
+		(property "Reference" "J1"
+			(at 50.8 67.6031 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 50.8 70.1431 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "JLCImport:CONN_73171-1900_MOL"
+			(at 54.61 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 54.61 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "40dc9806-0f3e-4484-a6b0-170b011a69c0")
+		)
+		(pin "1"
+			(uuid "60b7e99f-fb9f-426c-9855-45988648a973")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
+					(reference "J7")
+					(unit 1)
+				)
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
+					(reference "J8")
+					(unit 1)
+				)
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
+					(reference "J2")
+					(unit 1)
+				)
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4261,15 +4205,15 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR098")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR0108")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
@@ -4353,15 +4297,15 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C53")
+					(reference "C65")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "C60")
+					(reference "C74")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
@@ -4382,7 +4326,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a0fd25e5-0506-41a6-9b2c-c3178710283b")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 133.35 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4446,19 +4390,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R54")
+					(reference "R68")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R61")
+					(reference "R75")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4538,15 +4482,15 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C52")
+					(reference "C64")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "C59")
+					(reference "C73")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
@@ -4569,7 +4513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b79af860-3a19-465a-9274-d93c8cf6e61f")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 92.71 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4633,153 +4577,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R52")
+					(reference "R66")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R59")
+					(reference "R73")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLCImport:DOSIN-801-0057")
-		(at 57.15 68.58 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c338ce2b-53ec-438b-8241-1cbd7e69d74f")
-		(property "Reference" "RF1"
-			(at 53.34 58.42 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DOSIN-801-0057"
-			(at 53.34 60.96 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "JLCImport:DOSIN-801-0057"
-			(at 57.15 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2007241234_dosinconn-DOSIN-801-0057_C709675.pdf"
-			(at 57.15 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-40℃~+110℃ 1 3GHz 75Ω BNC Board Side Positive Pin 插件 Coaxial Connectors (RF) ROHS"
-			(at 57.15 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C709675"
-			(at 57.15 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "dosinconn"
-			(at 57.15 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part" "DOSIN-801-0057"
-			(at 57.15 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "9ededd9b-0273-4c62-afa2-42f07b2f456d")
-		)
-		(pin "1"
-			(uuid "4ae02cec-105b-4df0-a81d-d5f929bf326f")
-		)
-		(pin "4"
-			(uuid "76cc8156-db83-49e1-ad53-6e668db83f87")
-		)
-		(pin "2"
-			(uuid "3c0c1305-adce-4e93-ad93-86cbc85ae2c2")
-		)
-		(pin "5"
-			(uuid "febb492e-cec2-4ac5-bdeb-fc6231e865c7")
-		)
-		(instances
-			(project "syzygy-octosdi"
-				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "RF7")
-					(unit 1)
-				)
-				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "RF8")
-					(unit 1)
-				)
-				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "RF2")
-					(unit 1)
-				)
-				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "RF1")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4861,15 +4671,15 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C58")
+					(reference "C70")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "C65")
+					(reference "C79")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
@@ -4891,7 +4701,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d11edcc7-3b86-492c-9cb4-6626e277c327")
-		(property "Reference" "C77"
+		(property "Reference" "C10"
 			(at 231.14 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4955,19 +4765,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C79")
+					(reference "C72")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "C80")
+					(reference "C81")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C78")
+					(reference "C19")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "C77")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -5045,15 +4855,15 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR099")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR0109")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
@@ -5075,7 +4885,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dee3527a-f0ee-4807-9241-dd56a55747e7")
-		(property "Reference" "C73"
+		(property "Reference" "C9"
 			(at 219.71 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5139,19 +4949,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C75")
+					(reference "C71")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "C76")
+					(reference "C80")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "C74")
+					(reference "C18")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "C73")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -5169,7 +4979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e18c990d-fa60-41d5-b05a-0a473e2e98d4")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 90.17 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5229,11 +5039,11 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR093")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR0103")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
@@ -5241,7 +5051,7 @@
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5259,7 +5069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebf0fadb-87d3-4bdd-9a06-af4eb9ae49b9")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 87.63 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5319,11 +5129,11 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "#PWR092")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR0102")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
@@ -5331,7 +5141,7 @@
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5348,7 +5158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f552edc2-a63c-4773-809a-41d0c2143f99")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 82.55 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5410,19 +5220,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R51")
+					(reference "R65")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R58")
+					(reference "R72")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5440,7 +5250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc12629e-57b0-4251-b000-c2ed366375ca")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 74.93 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5504,19 +5314,19 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R50")
+					(reference "R64")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R57")
+					(reference "R71")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/0bcbd417-5be8-4639-a61a-81f6ad96039a"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494/a3920843-460e-454a-bb55-c423637c5275"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
