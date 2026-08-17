@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 2,
+          "border_display_style": 0,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -153,9 +153,9 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.09,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -216,10 +216,10 @@
         "diff_pair_skew_defaults": {
           "corner_radius_percentage": 80,
           "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "max_amplitude": 0.5,
+          "min_amplitude": 0.1,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.2
         },
         "single_track_defaults": {
           "corner_radius_percentage": 80,
@@ -516,13 +516,196 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2258,
+        "name": "100 Ohm Diff",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "diff_pair_gap": 0.15,
+        "diff_pair_width": 0.3772,
+        "name": "75 Ohm Diff",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "75 Ohm Single",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1377,
+        "tuning_profile": ""
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/Outputs/SDI Out 1/DDI+": [
+        "100 Ohm Diff"
+      ],
+      "/Outputs/SDI Out 1/DDI-": [
+        "100 Ohm Diff"
+      ],
+      "/Outputs/SDI Out 2/DDI+": [
+        "100 Ohm Diff"
+      ],
+      "/Outputs/SDI Out 2/DDI-": [
+        "100 Ohm Diff"
+      ],
+      "/Outputs/SDI Out 3/DDI+": [
+        "100 Ohm Diff"
+      ],
+      "/Outputs/SDI Out 3/DDI-": [
+        "100 Ohm Diff"
+      ],
+      "/Outputs/SDI Out 4/DDI+": [
+        "100 Ohm Diff"
+      ],
+      "/Outputs/SDI Out 4/DDI-": [
+        "100 Ohm Diff"
+      ],
+      "Net-(C11-Pad2)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(C13-Pad1)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(C2-Pad2)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(C20-Pad2)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(C22-Pad1)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(C29-Pad2)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(C31-Pad1)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(C4-Pad1)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(C50-Pad2)": [
+        "75 Ohm Single"
+      ],
+      "Net-(C60-Pad2)": [
+        "75 Ohm Single"
+      ],
+      "Net-(C70-Pad2)": [
+        "75 Ohm Single"
+      ],
+      "Net-(C80-Pad2)": [
+        "75 Ohm Single"
+      ],
+      "Net-(J1-In)": [
+        "75 Ohm Single"
+      ],
+      "Net-(J2-In)": [
+        "75 Ohm Single"
+      ],
+      "Net-(J3-In)": [
+        "75 Ohm Single"
+      ],
+      "Net-(J4-In)": [
+        "75 Ohm Single"
+      ],
+      "Net-(J5-In)": [
+        "75 Ohm Single"
+      ],
+      "Net-(J6-In)": [
+        "75 Ohm Single"
+      ],
+      "Net-(J7-In)": [
+        "75 Ohm Single"
+      ],
+      "Net-(J8-In)": [
+        "75 Ohm Single"
+      ],
+      "Net-(U1-SDI#)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(U1-SDI)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(U1-SDO#)": [
+        "100 Ohm Diff"
+      ],
+      "Net-(U1-SDO)": [
+        "100 Ohm Diff"
+      ],
+      "Net-(U10-SDO)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(U10-~{SDO})": [
+        "75 Ohm Diff"
+      ],
+      "Net-(U2-SDI#)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(U2-SDI)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(U2-SDO#)": [
+        "100 Ohm Diff"
+      ],
+      "Net-(U2-SDO)": [
+        "100 Ohm Diff"
+      ],
+      "Net-(U3-SDI#)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(U3-SDI)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(U3-SDO#)": [
+        "100 Ohm Diff"
+      ],
+      "Net-(U3-SDO)": [
+        "100 Ohm Diff"
+      ],
+      "Net-(U4-SDI#)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(U4-SDI)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(U4-SDO#)": [
+        "100 Ohm Diff"
+      ],
+      "Net-(U4-SDO)": [
+        "100 Ohm Diff"
+      ],
+      "Net-(U7-SDO)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(U7-~{SDO})": [
+        "75 Ohm Diff"
+      ],
+      "Net-(U8-SDO)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(U8-~{SDO})": [
+        "75 Ohm Diff"
+      ],
+      "Net-(U9-SDO)": [
+        "75 Ohm Diff"
+      ],
+      "Net-(U9-~{SDO})": [
+        "75 Ohm Diff"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
