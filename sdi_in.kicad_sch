@@ -2456,6 +2456,26 @@
 		)
 		(uuid "faa4f34b-7690-4904-9d4b-af07e098c502")
 	)
+	(label "SDO+"
+		(at 142.1905 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14e2336a-4264-4ad6-90cc-521bc2f286e7")
+	)
+	(label "SDO-"
+		(at 142.1905 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61c03e17-3521-4694-afb3-1da75e67a17b")
+	)
 	(hierarchical_label "MUTE"
 		(shape input)
 		(at 165.1 142.24 0)
@@ -2584,7 +2604,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 89.535 66.04) (xy 89.535 76.2) (xy 88.265 76.2) (xy 88.265 66.04)
+				(xy 99.695 66.04) (xy 99.695 70.485) (xy 100.965 70.485) (xy 100.965 66.04)
 			)
 			(stroke
 				(width 0)
@@ -2593,7 +2613,26 @@
 			(fill
 				(type none)
 			)
-			(uuid "96f2344a-7685-4bd8-9b59-092392149081")
+			(uuid "04d3aaaf-04a8-4060-b5d2-df670d663472")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 80.645 66.04) (xy 80.645 70.485) (xy 81.915 70.485) (xy 81.915 66.04)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "4b5da553-f2c3-4a0b-922f-27010032883b")
 		)
 	)
 	(rule_area
@@ -2632,25 +2671,6 @@
 				(type none)
 			)
 			(uuid "cd15ed5e-db5a-4942-b0cd-90b6ebd1fcd4")
-		)
-	)
-	(rule_area
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(polyline
-			(pts
-				(xy 99.695 66.04) (xy 99.695 76.2) (xy 100.965 76.2) (xy 100.965 66.04)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid "eee67198-a329-43c9-b2b9-40e0b11d9b50")
 		)
 	)
 	(netclass_flag ""
@@ -2697,8 +2717,8 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7c7ad996-fe51-4f65-910e-bc44bf5b0de8")
-		(property "Netclass" "75 Ohm Diff"
+		(uuid "2b9a07d6-1774-4af5-9bb1-e442027bc55b")
+		(property "Netclass" "75 Ohm Single"
 			(at 97.536 61.468 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2724,27 +2744,27 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 88.9 66.04 0)
+		(at 81.28 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "ec74c24a-17ce-485f-b9f8-882d8e5eb1c2")
-		(property "Netclass" "75 Ohm Diff"
-			(at 91.694 61.468 0)
+		(uuid "b2c2bc91-9d75-4984-91c4-0b94ed4d677a")
+		(property "Netclass" "75 Ohm Single"
+			(at 78.486 61.468 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Component Class" ""
-			(at 274.32 1.27 0)
+			(at -104.14 1.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
