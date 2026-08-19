@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +209,10 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.4
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -217,7 +226,7 @@
           "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 0.5,
-          "min_amplitude": 0.1,
+          "min_amplitude": 0.005,
           "single_sided": false,
           "spacing": 0.2
         },
@@ -230,7 +239,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -595,6 +609,60 @@
         "100 Ohm Diff"
       ],
       "/Outputs/SDI Out 4/DDI-": [
+        "100 Ohm Diff"
+      ],
+      "/REFCLK.N": [
+        "100 Ohm Diff"
+      ],
+      "/REFCLK.P": [
+        "100 Ohm Diff"
+      ],
+      "/RX0.N": [
+        "100 Ohm Diff"
+      ],
+      "/RX0.P": [
+        "100 Ohm Diff"
+      ],
+      "/RX1.N": [
+        "100 Ohm Diff"
+      ],
+      "/RX1.P": [
+        "100 Ohm Diff"
+      ],
+      "/RX2.N": [
+        "100 Ohm Diff"
+      ],
+      "/RX2.P": [
+        "100 Ohm Diff"
+      ],
+      "/RX3.N": [
+        "100 Ohm Diff"
+      ],
+      "/RX3.P": [
+        "100 Ohm Diff"
+      ],
+      "/TX0.N": [
+        "100 Ohm Diff"
+      ],
+      "/TX0.P": [
+        "100 Ohm Diff"
+      ],
+      "/TX1.N": [
+        "100 Ohm Diff"
+      ],
+      "/TX1.P": [
+        "100 Ohm Diff"
+      ],
+      "/TX2.N": [
+        "100 Ohm Diff"
+      ],
+      "/TX2.P": [
+        "100 Ohm Diff"
+      ],
+      "/TX3.N": [
+        "100 Ohm Diff"
+      ],
+      "/TX3.P": [
         "100 Ohm Diff"
       ],
       "Net-(C11-Pad2)": [

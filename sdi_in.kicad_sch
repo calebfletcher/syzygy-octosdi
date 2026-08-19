@@ -1718,7 +1718,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 73.66) (xy 163.83 73.66)
+			(xy 167.64 73.66) (xy 163.83 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2228,7 +2228,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 78.74) (xy 163.83 78.74)
+			(xy 167.64 78.74) (xy 163.83 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2511,7 +2511,7 @@
 	)
 	(hierarchical_label "OUT+"
 		(shape input)
-		(at 166.37 73.66 0)
+		(at 167.64 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2566,7 +2566,7 @@
 	)
 	(hierarchical_label "OUT-"
 		(shape input)
-		(at 166.37 78.74 0)
+		(at 167.64 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2614,6 +2614,25 @@
 				(type none)
 			)
 			(uuid "04d3aaaf-04a8-4060-b5d2-df670d663472")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 164.465 71.12) (xy 164.465 81.28) (xy 165.735 81.28) (xy 165.735 71.12)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "0b1c8324-ce18-45c6-8ac5-e3ae67ed1509")
 		)
 	)
 	(rule_area
@@ -2765,6 +2784,40 @@
 		)
 		(property "Component Class" ""
 			(at -104.14 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 165.1 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7294389-8160-4ded-a0cb-c37354799297")
+		(property "Netclass" "100 Ohm Diff"
+			(at 162.306 66.548 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -20.32 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

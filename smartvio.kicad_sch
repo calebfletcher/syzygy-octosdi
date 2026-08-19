@@ -1985,7 +1985,7 @@
 		)
 		(uuid "92005abc-0aa0-4558-86b9-98f1929fa343")
 	)
-	(text_box "Programming Header"
+	(text_box "Programming Header\nData lines to PCB edge"
 		(exclude_from_sim no)
 		(at 35.56 153.67 0)
 		(size 43.18 29.21)
