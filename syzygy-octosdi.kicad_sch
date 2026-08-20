@@ -1923,9 +1923,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Micro BNC Cables:\nhttps://www.aliexpress.com/item/1005006661192596.html\nhttps://www.aliexpress.com/item/1005008464162704.html\n\n\nBNC connectors:\nhttps://www.digikey.com.au/en/products/detail/molex/0731711900/1465139\nhttps://www.lcsc.com/product-detail/C709675.html"
+	(text_box "Power:\n\nEach GS2988 consumes 64mA/222mW from 3.3V\nEach LMH0344 consumes 100mA from 3.3V\nPCAL6416 consumes unknown, assume max 100mA per chip\nCrystal consumes 75mA from 3.3V\n\nTotal of 944mA"
 		(exclude_from_sim no)
-		(at 17.78 157.48 0)
+		(at 29.21 155.575 0)
 		(size 106.68 26.67)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1941,7 +1941,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "752c56fd-9b05-45e0-9c18-38fc02aa4819")
+		(uuid "5363af7f-2161-4ec1-8b4d-b800a72799ea")
 	)
 	(text_box "Tri-state can float to enable."
 		(exclude_from_sim no)
