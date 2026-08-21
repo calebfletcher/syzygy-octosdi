@@ -4479,7 +4479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/731711900?display=pdf"
 			(at 54.61 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4491,6 +4491,28 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 54.61 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 54.61 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "731711900"
 			(at 54.61 68.58 0)
 			(hide yes)
 			(show_name no)
