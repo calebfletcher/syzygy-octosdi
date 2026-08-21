@@ -2941,7 +2941,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{OSP}" input
+		(pin "~{OSP}" output
 			(at 119.38 125.73 180)
 			(uuid "8332d6b5-068b-46a7-956c-057543dabbe5")
 			(effects
@@ -3057,7 +3057,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{OSP}" input
+		(pin "~{OSP}" output
 			(at 119.38 87.63 180)
 			(uuid "646c3fb7-9a32-43b5-9ca2-281128ed45ae")
 			(effects
@@ -3173,7 +3173,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{OSP}" input
+		(pin "~{OSP}" output
 			(at 119.38 68.58 180)
 			(uuid "1f972d04-563a-4436-87b5-02c325648c9f")
 			(effects
@@ -3289,7 +3289,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{OSP}" input
+		(pin "~{OSP}" output
 			(at 119.38 106.68 180)
 			(uuid "59ac78cb-3e5d-42ea-8c78-0f5a81012277")
 			(effects

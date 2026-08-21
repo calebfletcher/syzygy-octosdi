@@ -515,7 +515,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.19,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -610,6 +610,12 @@
         "100 Ohm Diff"
       ],
       "/Outputs/SDI Out 4/DDI-": [
+        "100 Ohm Diff"
+      ],
+      "/REF+": [
+        "100 Ohm Diff"
+      ],
+      "/REF-": [
         "100 Ohm Diff"
       ],
       "/REFCLK.N": [
@@ -977,7 +983,7 @@
         "uuid": "cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
       }
     ],
-    "used_designators": "D1-14,#PWR1-168,C1-113,RF1-12,U1-15,R1-111,CN1,H1-2,X1,L1-12,TP1-3,TP5-7,J1-12",
+    "used_designators": "D1-14,#PWR1-168,C1-113,RF1-12,U1-15,R1-111,CN1,H1-4,X1,L1-12,TP1-3,TP5-7,J1-12",
     "variants": []
   },
   "sheets": [
