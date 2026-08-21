@@ -5,6 +5,129 @@
 	(uuid "c31f2e90-2164-42f3-a6b1-d397c9c53d1f")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -966,10 +1089,22 @@
 		)
 	)
 	(junction
+		(at 109.22 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b731c4d0-1f10-4621-b3c0-cf3756a1143c")
+	)
+	(junction
 		(at 80.01 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bce39341-d52d-4154-939f-ce9bc3cdced9")
+	)
+	(junction
+		(at 115.57 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd317031-7799-4e3f-af30-6ea03fb726f5")
 	)
 	(bus_entry
 		(at 151.13 60.96)
@@ -1421,16 +1556,6 @@
 		)
 		(uuid "647b0ca8-985d-466f-adb1-48a55d58f564")
 	)
-	(wire
-		(pts
-			(xy 109.22 63.5) (xy 119.38 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "682890e6-442f-4dee-8779-c8072b7f6eeb")
-	)
 	(bus
 		(pts
 			(xy 151.13 58.42) (xy 151.13 60.96)
@@ -1450,6 +1575,16 @@
 			(type default)
 		)
 		(uuid "68e1c18a-80cc-4f2e-aaff-1b724d4a5408")
+	)
+	(wire
+		(pts
+			(xy 109.22 63.5) (xy 119.38 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705aff9f-bfc3-4482-b8e5-4efac51754b8")
 	)
 	(bus
 		(pts
@@ -1563,7 +1698,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 68.58) (xy 119.38 68.58)
+			(xy 114.3 68.58) (xy 115.57 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1600,6 +1735,16 @@
 			(type default)
 		)
 		(uuid "a7c90a2d-e134-4238-a23c-3edfbae19d61")
+	)
+	(wire
+		(pts
+			(xy 109.22 57.15) (xy 109.22 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85c77e8-f45a-4d46-a7a1-199d91c96d9a")
 	)
 	(wire
 		(pts
@@ -1813,6 +1958,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 68.58) (xy 119.38 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c780c3-4d2e-40ce-a6f9-0bb04a8592ef")
+	)
+	(wire
+		(pts
 			(xy 119.38 66.04) (xy 111.76 66.04)
 		)
 		(stroke
@@ -1840,6 +1995,16 @@
 			(type default)
 		)
 		(uuid "f4c8cad9-0fe7-4d83-a2c1-ed25d5453fb7")
+	)
+	(wire
+		(pts
+			(xy 115.57 57.15) (xy 115.57 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f819f8ad-9bc0-4e22-b67d-4f558a436705")
 	)
 	(wire
 		(pts
@@ -2289,7 +2454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f2cda03-19a7-4050-b6a5-1a11e0c62016")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR062"
 			(at 83.82 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2349,7 +2514,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe"
-					(reference "#PWR056")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -2367,7 +2532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b8eb87d-f1df-4241-8515-7525d73f870c")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR061"
 			(at 80.01 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -2427,7 +2592,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe"
-					(reference "#PWR055")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -2445,7 +2610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bfe3d4c-3b38-42a8-989f-e442f3561320")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR058"
 			(at 35.56 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -2505,7 +2670,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe"
-					(reference "#PWR052")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2523,7 +2688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30cc99c3-271e-4223-a1ee-44054f104a43")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR059"
 			(at 48.26 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2583,7 +2748,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe"
-					(reference "#PWR053")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2601,7 +2766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37fadea5-2149-4123-b57f-64034081785b")
-		(property "Reference" "C40"
+		(property "Reference" "C42"
 			(at 39.37 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2676,7 +2841,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe"
-					(reference "C40")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -2694,7 +2859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "383f3449-78b4-4256-87d3-3b6d20afeb8a")
-		(property "Reference" "C41"
+		(property "Reference" "C43"
 			(at 52.07 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2769,7 +2934,165 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe"
-					(reference "C41")
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 109.22 57.15 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "678c23e1-528c-4c98-a04f-065bc5ac8ced")
+		(property "Reference" "TP11"
+			(at 107.188 54.102 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 107.188 56.642 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 104.14 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 109.22 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d34669e-20fc-4462-9050-bf7ebe83f619")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 115.57 57.15 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "67d9039d-f103-45e4-a604-3e0c9d97b48f")
+		(property "Reference" "TP12"
+			(at 119.38 48.768 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 119.38 51.308 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 110.49 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 115.57 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d386c08-3bf1-4020-a744-3174c33ecc0a")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -2787,7 +3110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d87e76a7-d6dc-4a0b-a0c7-d246dd6d6917")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR060"
 			(at 48.26 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -2847,7 +3170,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/7952d4e7-438b-4019-af07-2f77390b2cbe"
-					(reference "#PWR054")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)

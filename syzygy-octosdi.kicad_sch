@@ -5,6 +5,129 @@
 	(uuid "cb0cdcc9-6b9b-4b74-8146-9043de7999b1")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -299,6 +422,207 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2119,6 +2443,26 @@
 		)
 		(uuid "c2605f63-d406-4323-b870-db8781e9d548")
 	)
+	(text_box "Power LED"
+		(exclude_from_sim no)
+		(at 126.365 149.86 0)
+		(size 36.195 38.735)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c3f46083-0651-4007-aa80-1e495f9369d5")
+	)
 	(junction
 		(at 251.46 46.99)
 		(diameter 0)
@@ -2126,7 +2470,7 @@
 		(uuid "0d1d1d0f-4aeb-463e-82bc-f897751b82fb")
 	)
 	(junction
-		(at 222.25 137.16)
+		(at 191.77 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18a4bf34-72e0-4840-97ec-9af79693fa73")
@@ -2138,10 +2482,22 @@
 		(uuid "6046609f-a8f8-4693-8f6c-353c8f0074e8")
 	)
 	(junction
-		(at 222.25 152.4)
+		(at 191.77 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba4824b7-6a26-48d0-bacd-b27c75ada4e6")
+	)
+	(junction
+		(at 262.89 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee84e5e0-13fa-424e-8bba-8108db3b6759")
+	)
+	(junction
+		(at 251.46 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f569f790-b071-4e24-9469-005de77f6d11")
 	)
 	(no_connect
 		(at 87.63 86.36)
@@ -2269,6 +2625,15 @@
 		(uuid "1ca84460-46c9-4bc1-a80f-0193ae3bdb2f")
 	)
 	(bus_entry
+		(at 237.49 118.11)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e17a15-d350-4859-937a-c98c12ea413a")
+	)
+	(bus_entry
 		(at 104.14 45.72)
 		(size -2.54 2.54)
 		(stroke
@@ -2305,7 +2670,7 @@
 		(uuid "3590cbae-7e6d-4eaf-8634-67f776e266ab")
 	)
 	(bus_entry
-		(at 237.49 88.9)
+		(at 237.49 97.79)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2413,7 +2778,7 @@
 		(uuid "ab7bc99d-01ab-4a30-9f8e-b1b5c6a0b7ce")
 	)
 	(bus_entry
-		(at 237.49 91.44)
+		(at 237.49 100.33)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2467,6 +2832,15 @@
 		(uuid "d817a2a3-05bc-4bf6-873e-93b5abca4958")
 	)
 	(bus_entry
+		(at 237.49 115.57)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dff9a9a5-1adf-4763-8110-eb9e68d4798d")
+	)
+	(bus_entry
 		(at 104.14 58.42)
 		(size -2.54 2.54)
 		(stroke
@@ -2496,7 +2870,7 @@
 	)
 	(bus
 		(pts
-			(xy 237.49 88.9) (xy 237.49 91.44)
+			(xy 237.49 97.79) (xy 237.49 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2606,7 +2980,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 137.16) (xy 222.25 137.16)
+			(xy 179.07 137.16) (xy 191.77 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2676,7 +3050,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 137.16) (xy 232.41 135.89)
+			(xy 201.93 137.16) (xy 201.93 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2703,6 +3077,16 @@
 			(type default)
 		)
 		(uuid "39d63d6e-9079-4484-ab76-11f1fe08a185")
+	)
+	(wire
+		(pts
+			(xy 240.03 118.11) (xy 256.54 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bb152fb-c520-455c-95ac-803db5e37def")
 	)
 	(bus
 		(pts
@@ -2796,6 +3180,16 @@
 	)
 	(bus
 		(pts
+			(xy 237.49 115.57) (xy 237.49 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e1679d-ada7-4ba9-8333-2fa873612646")
+	)
+	(bus
+		(pts
 			(xy 44.45 76.2) (xy 44.45 78.74)
 		)
 		(stroke
@@ -2816,13 +3210,43 @@
 	)
 	(wire
 		(pts
-			(xy 254 91.44) (xy 254 88.9)
+			(xy 254 88.9) (xy 254 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "48e94a84-cf85-40e7-8986-555393343e42")
+	)
+	(wire
+		(pts
+			(xy 251.46 97.79) (xy 251.46 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb50a80-c23e-49e4-9eb8-1521a6ef2225")
+	)
+	(wire
+		(pts
+			(xy 265.43 100.33) (xy 265.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1e781e-7afe-4001-85ad-a1c750e1c35a")
+	)
+	(wire
+		(pts
+			(xy 260.35 144.78) (xy 260.35 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e115364-efab-4d0b-a807-3f1908f58af5")
 	)
 	(wire
 		(pts
@@ -2846,7 +3270,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 138.43) (xy 222.25 137.16)
+			(xy 191.77 138.43) (xy 191.77 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2856,7 +3280,17 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 88.9) (xy 262.89 93.98)
+			(xy 251.46 100.33) (xy 254 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d4e54d-2e82-4097-b672-5d335c00c36b")
+	)
+	(wire
+		(pts
+			(xy 262.89 88.9) (xy 262.89 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2896,13 +3330,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 152.4) (xy 222.25 152.4)
+			(xy 179.07 152.4) (xy 191.77 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5a0f23f6-985f-44a7-a758-128c67ba91c9")
+	)
+	(wire
+		(pts
+			(xy 146.05 180.34) (xy 146.05 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4d7c3f-f378-4018-a11c-4ee17d93a9f5")
 	)
 	(bus
 		(pts
@@ -2946,7 +3390,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 152.4) (xy 209.55 151.13)
+			(xy 179.07 152.4) (xy 179.07 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2993,6 +3437,16 @@
 			(type default)
 		)
 		(uuid "678c44b3-d01d-4493-8529-4b31eed67a6e")
+	)
+	(wire
+		(pts
+			(xy 260.35 146.05) (xy 264.16 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6814594b-c937-4317-959b-34a0c297c53d")
 	)
 	(bus
 		(pts
@@ -3086,6 +3540,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 138.43) (xy 264.16 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "705934a2-b8b9-402d-a8de-7336c8d44bac")
+	)
+	(wire
+		(pts
 			(xy 101.6 48.26) (xy 87.63 48.26)
 		)
 		(stroke
@@ -3096,7 +3560,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 152.4) (xy 232.41 151.13)
+			(xy 201.93 152.4) (xy 201.93 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3206,6 +3670,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 157.48) (xy 146.05 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bae2905-54bc-458e-b181-3c6a91335e49")
+	)
+	(wire
+		(pts
 			(xy 101.6 81.28) (xy 87.63 81.28)
 		)
 		(stroke
@@ -3236,6 +3710,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 118.11) (xy 260.35 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924d3f17-b0cb-402a-b42e-f3a7ef72962f")
+	)
+	(wire
+		(pts
 			(xy 260.35 46.99) (xy 251.46 46.99)
 		)
 		(stroke
@@ -3253,6 +3737,16 @@
 			(type default)
 		)
 		(uuid "99792c5b-9368-459d-b872-f343a874c662")
+	)
+	(wire
+		(pts
+			(xy 265.43 102.87) (xy 262.89 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c639027-4209-430e-8a8d-cdf36b6bdbef")
 	)
 	(wire
 		(pts
@@ -3326,7 +3820,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 93.98) (xy 262.89 93.98)
+			(xy 240.03 102.87) (xy 262.89 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3346,7 +3840,7 @@
 	)
 	(bus
 		(pts
-			(xy 226.06 88.9) (xy 237.49 88.9)
+			(xy 226.06 97.79) (xy 237.49 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3386,7 +3880,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 137.16) (xy 209.55 135.89)
+			(xy 179.07 137.16) (xy 179.07 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3406,13 +3900,33 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 91.44) (xy 254 91.44)
+			(xy 260.35 138.43) (xy 264.16 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9002e08-f752-40fa-b8bd-f29a218d5e93")
+	)
+	(wire
+		(pts
+			(xy 240.03 100.33) (xy 251.46 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ba1bebf4-8ee9-4929-92d5-37de39d6e932")
+	)
+	(bus
+		(pts
+			(xy 226.06 115.57) (xy 237.49 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9764db-f6f2-4686-91a1-55df8d0cc99b")
 	)
 	(bus
 		(pts
@@ -3426,6 +3940,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 120.65) (xy 260.35 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bccf9fec-3e9c-436f-b204-4c23155b9c46")
+	)
+	(wire
+		(pts
 			(xy 165.1 46.99) (xy 175.26 46.99)
 		)
 		(stroke
@@ -3433,6 +3957,26 @@
 			(type default)
 		)
 		(uuid "c1f18ae6-748b-483b-9177-7141e6d8592a")
+	)
+	(wire
+		(pts
+			(xy 264.16 146.05) (xy 264.16 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d9a4ec-de6a-4f65-9f17-f7a42041e271")
+	)
+	(wire
+		(pts
+			(xy 264.16 151.13) (xy 264.16 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3071a68-713d-430b-a052-b34ab81d5253")
 	)
 	(wire
 		(pts
@@ -3456,7 +4000,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 137.16) (xy 232.41 137.16)
+			(xy 191.77 137.16) (xy 201.93 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3576,7 +4120,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 153.67) (xy 222.25 152.4)
+			(xy 191.77 153.67) (xy 191.77 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3616,6 +4160,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 137.16) (xy 260.35 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e96e4204-06e2-4f11-867d-97a076599fab")
+	)
+	(wire
+		(pts
 			(xy 54.61 91.44) (xy 59.69 91.44)
 		)
 		(stroke
@@ -3623,6 +4177,16 @@
 			(type default)
 		)
 		(uuid "ea42f54f-da1f-4fb3-85c3-ba9eb9925ddc")
+	)
+	(wire
+		(pts
+			(xy 146.05 167.64) (xy 146.05 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc30ac6-14c9-4c20-a136-e0328cde5c19")
 	)
 	(wire
 		(pts
@@ -3636,7 +4200,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 152.4) (xy 232.41 152.4)
+			(xy 191.77 152.4) (xy 201.93 152.4)
 		)
 		(stroke
 			(width 0)
@@ -3673,6 +4237,16 @@
 			(type default)
 		)
 		(uuid "f41f990e-b2c3-4a00-897e-25235a5ee972")
+	)
+	(wire
+		(pts
+			(xy 256.54 115.57) (xy 256.54 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4473daa-39c1-4bfb-852f-421ea72d84f0")
 	)
 	(wire
 		(pts
@@ -3954,8 +4528,18 @@
 		)
 		(uuid "435ad75e-e6bb-4877-a0b8-10bfb9eb9dee")
 	)
+	(label "VIO_I2C.SCL"
+		(at 255.27 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "47cb9e28-5d47-4464-9568-459b9bb2036b")
+	)
 	(label "I2C{I2C}"
-		(at 226.06 88.9 0)
+		(at 226.06 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3973,6 +4557,16 @@
 			(justify right bottom)
 		)
 		(uuid "4dc47fd6-8ea6-4a47-a955-495805e3579c")
+	)
+	(label "VIO_I2C.SDA"
+		(at 255.27 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "513d01e1-9058-41e5-b4ae-2bbb02994e57")
 	)
 	(label "TX1.N"
 		(at 100.33 55.88 180)
@@ -4003,6 +4597,16 @@
 			(justify left bottom)
 		)
 		(uuid "5fedbc1b-55bf-4f11-8130-3f9f5e2342af")
+	)
+	(label "VIO_I2C{I2C}"
+		(at 226.06 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "621dd9d7-ff0d-4f63-98ee-7152fe695fe1")
 	)
 	(label "I2C{I2C}"
 		(at 115.57 55.88 180)
@@ -4145,7 +4749,7 @@
 		(uuid "916191bc-4f65-4e26-a94c-a2dfac92799a")
 	)
 	(label "I2C.SDA"
-		(at 247.65 93.98 180)
+		(at 247.65 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4295,7 +4899,7 @@
 		(uuid "bb5ef328-c24a-4203-b01b-371ddb6f7d95")
 	)
 	(label "I2C.SCL"
-		(at 247.65 91.44 180)
+		(at 247.65 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4612,7 +5216,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00c2a782-6e5b-4a02-82d8-d8c67d198fed")
-		(property "Reference" "C86"
+		(property "Reference" "C2"
 			(at 95.2437 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4674,7 +5278,85 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
-					(reference "C86")
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 146.05 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0107cc4c-7b52-433f-967f-283ab0c1f6de")
+		(property "Reference" "#PWR08"
+			(at 146.05 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 146.05 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 146.05 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb6f7545-acfd-4358-9403-e7ba05bab2cb")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4691,7 +5373,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "066b0416-8c03-46be-988c-1e72046c022a")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 251.46 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4766,7 +5448,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4783,7 +5465,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "14b0fe09-6302-43bc-b5a4-7ed0130bace2")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 260.35 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4858,7 +5540,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4944,7 +5626,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 209.55 133.35 0)
+		(at 179.07 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4955,7 +5637,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a90cf2f-0533-4018-bb07-1ab23064f72e")
 		(property "Reference" "H1"
-			(at 212.09 130.8099 0)
+			(at 181.61 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4966,7 +5648,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 212.09 133.3499 0)
+			(at 181.61 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4977,7 +5659,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 209.55 133.35 0)
+			(at 179.07 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4988,7 +5670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 133.35 0)
+			(at 179.07 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4999,7 +5681,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 209.55 133.35 0)
+			(at 179.07 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5010,7 +5692,7 @@
 			)
 		)
 		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 209.55 133.35 0)
+			(at 179.07 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5043,7 +5725,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2dff669a-5d6d-4e37-a87b-98d873516cee")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 172.72 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5103,7 +5785,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5199,7 +5881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39da92a9-129f-4466-94fd-521b35f08af5")
-		(property "Reference" "C85"
+		(property "Reference" "C1"
 			(at 95.2563 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5261,7 +5943,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
-					(reference "C85")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -5278,7 +5960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3b9f0b93-9a99-4f12-90dc-4d9fc604b034")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 257.81 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5353,7 +6035,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5747,7 +6429,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 209.55 148.59 0)
+		(at 179.07 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5757,8 +6439,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5049ed05-5a46-40c5-b192-4b87eeb173f2")
-		(property "Reference" "H3"
-			(at 212.09 146.0499 0)
+		(property "Reference" "H2"
+			(at 181.61 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5769,7 +6451,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 212.09 148.5899 0)
+			(at 181.61 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5780,7 +6462,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 209.55 148.59 0)
+			(at 179.07 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5791,7 +6473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 148.59 0)
+			(at 179.07 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5802,7 +6484,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 209.55 148.59 0)
+			(at 179.07 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5813,7 +6495,7 @@
 			)
 		)
 		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 209.55 148.59 0)
+			(at 179.07 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5829,15 +6511,15 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 222.25 138.43 0)
+		(lib_id "power:+3V3")
+		(at 260.35 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5846,9 +6528,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7a885658-2f7d-4188-82a1-c91a834aefef")
-		(property "Reference" "#PWR010"
-			(at 222.25 144.78 0)
+		(uuid "61255add-b60e-4cb6-a479-5bb880858906")
+		(property "Reference" "#PWR015"
+			(at 260.35 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5858,8 +6540,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 222.25 143.51 0)
+		(property "Value" "+3V3"
+			(at 260.35 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5869,7 +6551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 138.43 0)
+			(at 260.35 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5880,7 +6562,321 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 138.43 0)
+			(at 260.35 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 260.35 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e2b7a0e-3586-48f5-8739-1367fd622be9")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 264.16 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "633cc886-cea4-4e0b-b32c-e8575a6549b8")
+		(property "Reference" "TP6"
+			(at 266.7 146.5579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 266.7 149.0979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 269.24 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 264.16 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ae76965-9348-4abc-ba87-ea3bf05c06c4")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 260.35 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63df5da2-c3f3-4315-8944-3d41654e0828")
+		(property "Reference" "#PWR014"
+			(at 260.35 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 260.35 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 260.35 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cabaa0c-172e-4c70-91d6-6f6b8d3e1bb7")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 264.16 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78ab274f-f847-4279-b036-fce9ba5e78bd")
+		(property "Reference" "TP5"
+			(at 266.7 140.2079 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 266.7 142.7479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 269.24 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 264.16 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61b21338-ee31-471b-85c4-68fe2e1f2c7f")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a885658-2f7d-4188-82a1-c91a834aefef")
+		(property "Reference" "#PWR012"
+			(at 191.77 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5891,7 +6887,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 138.43 0)
+			(at 191.77 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5907,7 +6903,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
-					(reference "#PWR010")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6002,7 +6998,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "824b0d5c-b2a2-4fff-801e-f7c7518c1f3d")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 248.92 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6077,7 +7073,346 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
-					(reference "R1")
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8896fe27-e0e3-4616-8527-ba118ce50cf6")
+		(property "Reference" "#PWR016"
+			(at 264.16 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c070e9a1-7be6-4eb2-be21-2c37d6737030")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 264.16 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d920677-4d95-4cdf-837b-8f8f2cc604ac")
+		(property "Reference" "TP4"
+			(at 266.7 132.5879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 266.7 135.1279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 269.24 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 264.16 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7185adf-63c8-4479-8b46-3fc76150e571")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 146.05 173.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2754666-a6c8-4588-8809-3190ef327369")
+		(property "Reference" "D1"
+			(at 149.86 174.3074 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 149.86 176.8474 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 146.05 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 146.05 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 146.05 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 146.05 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d96f6d97-52d6-4a73-865c-b5a842c24dad")
+		)
+		(pin "2"
+			(uuid "b063f063-a2be-493b-8605-f89fdcab6514")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abd2a306-c0cc-496d-9207-eff4a52fd2f1")
+		(property "Reference" "#PWR09"
+			(at 146.05 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e312e74-edbd-4221-bf5b-7a9080ea0844")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6095,7 +7430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4e13066-c819-4049-b622-9eaed4c393ab")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 142.24 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6170,7 +7505,86 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
-					(reference "C1")
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 251.46 97.79 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ba6b0a76-4504-48d2-bf1e-1a15a848eb91")
+		(property "Reference" "TP1"
+			(at 248.92 93.2179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 248.92 95.7579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 246.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 251.46 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1d807f1-16ad-45cd-9c1a-8cc6fbc15de1")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -6266,7 +7680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c50b933e-f5be-4a41-879a-a98d5b2e3acf")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 161.29 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6326,7 +7740,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6334,7 +7748,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 232.41 148.59 0)
+		(at 201.93 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6345,7 +7759,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7b830a7-6f08-402d-85b7-bf2fea556b33")
 		(property "Reference" "H4"
-			(at 234.95 146.0499 0)
+			(at 204.47 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6356,7 +7770,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 234.95 148.5899 0)
+			(at 204.47 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6367,7 +7781,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 232.41 148.59 0)
+			(at 201.93 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6378,7 +7792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 148.59 0)
+			(at 201.93 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6389,7 +7803,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 232.41 148.59 0)
+			(at 201.93 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6400,7 +7814,7 @@
 			)
 		)
 		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 232.41 148.59 0)
+			(at 201.93 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6417,6 +7831,85 @@
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 260.35 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd2b6435-5729-4d78-b88a-45c4ad54f81a")
+		(property "Reference" "TP3"
+			(at 262.89 113.5379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 262.89 116.0779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 265.43 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 260.35 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc2d54ae-ef20-47af-8de1-05e17be1c77a")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6627,7 +8120,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 232.41 133.35 0)
+		(at 201.93 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6637,8 +8130,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eed66ab9-82f0-470c-8239-af25afac5fff")
-		(property "Reference" "H2"
-			(at 234.95 130.8099 0)
+		(property "Reference" "H3"
+			(at 204.47 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6649,7 +8142,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 234.95 133.3499 0)
+			(at 204.47 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6660,7 +8153,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
-			(at 232.41 133.35 0)
+			(at 201.93 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6671,7 +8164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 133.35 0)
+			(at 201.93 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6682,7 +8175,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 232.41 133.35 0)
+			(at 201.93 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6693,7 +8186,7 @@
 			)
 		)
 		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 232.41 133.35 0)
+			(at 201.93 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6709,7 +8202,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6717,7 +8210,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 153.67 0)
+		(at 191.77 153.67 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6727,8 +8220,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5abb2cb-0bf4-446a-b394-a15a95afc1bf")
-		(property "Reference" "#PWR0130"
-			(at 222.25 160.02 0)
+		(property "Reference" "#PWR013"
+			(at 191.77 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6739,7 +8232,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 158.75 0)
+			(at 191.77 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6749,7 +8242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 153.67 0)
+			(at 191.77 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6760,7 +8253,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 153.67 0)
+			(at 191.77 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6771,7 +8264,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 153.67 0)
+			(at 191.77 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6787,7 +8280,259 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
-					(reference "#PWR0130")
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 163.83 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f76252b6-6035-48f0-afc7-f63fd0d71a55")
+		(property "Reference" "R1"
+			(at 148.59 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 148.59 165.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 147.828 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 146.05 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+			(at 146.05 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c1b82ed-167d-47cf-bcb0-49d984e29c79")
+		)
+		(pin "2"
+			(uuid "cb253a7d-6bbd-4eee-87df-183dc57189e7")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 256.54 115.57 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc504aaf-ba79-4fd7-803c-2abbe99357fc")
+		(property "Reference" "TP2"
+			(at 254 110.9979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 254 113.5379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 251.46 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 256.54 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9ffa0aa-cfde-4ace-9fc1-d6078238e65f")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 265.43 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd4fa552-644a-44bd-b42e-695b0093b774")
+		(property "Reference" "TP7"
+			(at 267.97 95.7579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 267.97 98.2979 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 270.51 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 265.43 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46bd2661-da44-4e27-801c-04fb9cd38ff6")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
