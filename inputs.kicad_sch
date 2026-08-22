@@ -2304,7 +2304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00adb0d2-66b9-4e1c-a94c-23b930ed45f1")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR059"
 			(at 83.82 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2364,7 +2364,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494"
-					(reference "#PWR057")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2461,7 +2461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "750b7f91-badc-4c14-a14c-2f0e3e7f2d67")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR057"
 			(at 48.26 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -2521,7 +2521,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494"
-					(reference "#PWR055")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -2539,7 +2539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83733f15-6e71-4e85-84a8-11db41b6a65e")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR058"
 			(at 80.01 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -2599,7 +2599,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494"
-					(reference "#PWR056")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2617,7 +2617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a66bb29f-4098-4a65-a965-ee8f75c438a1")
-		(property "Reference" "C40"
+		(property "Reference" "C41"
 			(at 39.37 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2692,7 +2692,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494"
-					(reference "C40")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -2789,7 +2789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca3e1b5f-74cc-41d5-bbe3-dc1908cdaef2")
-		(property "Reference" "C41"
+		(property "Reference" "C42"
 			(at 52.07 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2864,7 +2864,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494"
-					(reference "C41")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -3044,7 +3044,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed112ec6-9a19-4dd4-888b-3fded51ce4cf")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR056"
 			(at 48.26 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3104,7 +3104,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494"
-					(reference "#PWR054")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3122,7 +3122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f470d78b-afed-48f5-bd92-f6c14d6e489e")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR055"
 			(at 35.56 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -3182,7 +3182,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494"
-					(reference "#PWR053")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)

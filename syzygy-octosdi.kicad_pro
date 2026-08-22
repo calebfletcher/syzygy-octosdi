@@ -681,6 +681,9 @@
       "Net-(C13-Pad2)": [
         "75 Ohm Single"
       ],
+      "Net-(C14-Pad2)": [
+        "75 Ohm Single"
+      ],
       "Net-(C2-Pad2)": [
         "75 Ohm Single"
       ],
@@ -693,6 +696,9 @@
       "Net-(C22-Pad2)": [
         "75 Ohm Single"
       ],
+      "Net-(C23-Pad2)": [
+        "75 Ohm Single"
+      ],
       "Net-(C29-Pad2)": [
         "75 Ohm Single"
       ],
@@ -702,10 +708,16 @@
       "Net-(C31-Pad2)": [
         "75 Ohm Single"
       ],
+      "Net-(C32-Pad2)": [
+        "75 Ohm Single"
+      ],
       "Net-(C4-Pad1)": [
         "75 Ohm Diff"
       ],
       "Net-(C4-Pad2)": [
+        "75 Ohm Single"
+      ],
+      "Net-(C5-Pad2)": [
         "75 Ohm Single"
       ],
       "Net-(C50-Pad2)": [
@@ -714,10 +726,16 @@
       "Net-(C52-Pad2)": [
         "75 Ohm Single"
       ],
+      "Net-(C53-Pad2)": [
+        "75 Ohm Single"
+      ],
       "Net-(C60-Pad2)": [
         "75 Ohm Single"
       ],
       "Net-(C62-Pad2)": [
+        "75 Ohm Single"
+      ],
+      "Net-(C63-Pad2)": [
         "75 Ohm Single"
       ],
       "Net-(C70-Pad2)": [
@@ -726,10 +744,16 @@
       "Net-(C72-Pad2)": [
         "75 Ohm Single"
       ],
+      "Net-(C73-Pad2)": [
+        "75 Ohm Single"
+      ],
       "Net-(C80-Pad2)": [
         "75 Ohm Single"
       ],
       "Net-(C82-Pad2)": [
+        "75 Ohm Single"
+      ],
+      "Net-(C83-Pad2)": [
         "75 Ohm Single"
       ],
       "Net-(J1-In)": [
