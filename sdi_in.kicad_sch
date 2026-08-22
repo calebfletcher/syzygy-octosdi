@@ -4457,7 +4457,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_Coaxial"
+		(property "Value" "Conn_BNC"
 			(at 50.8 70.1431 0)
 			(show_name no)
 			(do_not_autoplace no)
