@@ -7724,7 +7724,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Red"
 			(at 149.86 176.8474 90)
 			(show_name no)
 			(do_not_autoplace no)

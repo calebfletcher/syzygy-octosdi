@@ -6454,7 +6454,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Green"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "12849a8a-c9f2-4914-a25b-b5e6df18fc26")
@@ -13969,7 +13969,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Green"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "e7f81343-3352-4bf0-a830-6ed6b1b64e7c")
@@ -15723,7 +15723,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Green"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "5d686ace-fe75-4db2-a8ce-74fa38b0c773")
@@ -16978,7 +16978,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Green"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "63c2a3ba-7142-451e-91de-b98f7782e41e")
@@ -21752,7 +21752,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Green"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "1c867e6c-7a2a-4c4a-afff-8a707534ff61")
@@ -29242,7 +29242,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Green"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "99347a31-415f-4f65-8827-6df485507d49")
@@ -32596,7 +32596,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Orange"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "7acf3c5a-ac21-4331-9e16-f75a1aea8b27")
@@ -32991,7 +32991,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Red"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "8508979a-b837-427d-ad57-9843f6d083bf")
@@ -37021,7 +37021,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Green"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "9e5f0e8c-ed5d-4f8b-9561-dc1318b46aa2")
@@ -39526,7 +39526,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Green"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "1047e70a-2aa6-4d66-a493-880f81498fff")
@@ -42773,7 +42773,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Green"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "fa26db6d-0482-4346-8244-d112655dfd7f")
@@ -45600,7 +45600,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Green"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "873c6e6c-3c30-40d7-b34d-4a46ab2dfc12")

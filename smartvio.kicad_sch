@@ -1948,7 +1948,7 @@
 	(text_box "VIO Good"
 		(exclude_from_sim no)
 		(at 129.54 106.68 0)
-		(size 64.77 43.18)
+		(size 69.85 43.18)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -1968,7 +1968,7 @@
 	(text_box "MCU LEDs"
 		(exclude_from_sim no)
 		(at 35.56 106.68 0)
-		(size 52.07 43.18)
+		(size 54.61 43.18)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2279,7 +2279,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 116.84) (xy 76.2 119.38)
+			(xy 73.66 116.84) (xy 73.66 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2299,7 +2299,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 116.84) (xy 58.42 116.84)
+			(xy 41.91 116.84) (xy 55.88 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2429,7 +2429,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 137.16) (xy 76.2 139.7)
+			(xy 73.66 137.16) (xy 73.66 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2439,7 +2439,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 116.84) (xy 76.2 116.84)
+			(xy 59.69 116.84) (xy 73.66 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2479,7 +2479,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 137.16) (xy 58.42 139.7)
+			(xy 55.88 137.16) (xy 55.88 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2519,7 +2519,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 116.84) (xy 58.42 119.38)
+			(xy 55.88 116.84) (xy 55.88 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2539,7 +2539,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 127) (xy 76.2 129.54)
+			(xy 73.66 127) (xy 73.66 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2689,7 +2689,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 127) (xy 58.42 129.54)
+			(xy 55.88 127) (xy 55.88 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2768,7 +2768,7 @@
 		(uuid "948759b0-4335-4603-a7c4-547348d7cafa")
 	)
 	(label "USER_LED_0"
-		(at 62.23 116.84 0)
+		(at 59.69 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2778,7 +2778,7 @@
 		(uuid "a887afec-2084-43ac-b6b7-9a05013de10d")
 	)
 	(label "USER_LED_1"
-		(at 44.45 116.84 0)
+		(at 41.91 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3294,7 +3294,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Orange"
 			(at 186.69 133.6674 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3740,7 +3740,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 139.7 0)
+		(at 55.88 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3751,7 +3751,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fedd9e3-4fcb-43fd-8d3b-68b835079ef4")
 		(property "Reference" "#PWR0127"
-			(at 58.42 146.05 0)
+			(at 55.88 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3762,7 +3762,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 144.78 0)
+			(at 55.88 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3772,7 +3772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 139.7 0)
+			(at 55.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3783,7 +3783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 139.7 0)
+			(at 55.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3794,7 +3794,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 139.7 0)
+			(at 55.88 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3896,7 +3896,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 76.2 133.35 90)
+		(at 73.66 133.35 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3906,7 +3906,7 @@
 		(dnp no)
 		(uuid "5593106b-d867-4424-b667-afd4cc4ac758")
 		(property "Reference" "D11"
-			(at 80.01 133.6674 90)
+			(at 77.47 133.6674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3916,8 +3916,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 80.01 136.2074 90)
+		(property "Value" "LED Green"
+			(at 77.47 136.2074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3928,7 +3928,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 76.2 133.35 0)
+			(at 73.66 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3939,7 +3939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 133.35 0)
+			(at 73.66 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3950,7 +3950,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 76.2 133.35 0)
+			(at 73.66 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3961,7 +3961,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 76.2 133.35 0)
+			(at 73.66 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3972,7 +3972,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 76.2 133.35 0)
+			(at 73.66 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3999,7 +3999,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 58.42 123.19 0)
+		(at 55.88 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4009,7 +4009,7 @@
 		(dnp no)
 		(uuid "5831fd75-7c7f-46dc-aac8-83fbdf904ecc")
 		(property "Reference" "R78"
-			(at 60.96 121.9199 0)
+			(at 58.42 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4020,7 +4020,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 60.96 124.4599 0)
+			(at 58.42 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4031,7 +4031,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 56.642 123.19 90)
+			(at 54.102 123.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4042,7 +4042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 123.19 0)
+			(at 55.88 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4053,7 +4053,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 58.42 123.19 0)
+			(at 55.88 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4064,7 +4064,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 58.42 123.19 0)
+			(at 55.88 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4075,7 +4075,7 @@
 			)
 		)
 		(property "LCSC" "C2907034"
-			(at 58.42 123.19 0)
+			(at 55.88 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4853,7 +4853,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 139.7 0)
+		(at 73.66 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4864,7 +4864,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7c09720-86d4-4dd8-a983-227bd9b52388")
 		(property "Reference" "#PWR0129"
-			(at 76.2 146.05 0)
+			(at 73.66 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4875,7 +4875,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 144.78 0)
+			(at 73.66 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4885,7 +4885,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 139.7 0)
+			(at 73.66 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4896,7 +4896,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 139.7 0)
+			(at 73.66 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4907,7 +4907,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 139.7 0)
+			(at 73.66 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5321,7 +5321,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 58.42 133.35 90)
+		(at 55.88 133.35 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5331,7 +5331,7 @@
 		(dnp no)
 		(uuid "d43d393a-cf3f-4a8d-bc79-c61deb956944")
 		(property "Reference" "D10"
-			(at 62.23 133.6674 90)
+			(at 59.69 133.6674 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5341,8 +5341,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 62.23 136.2074 90)
+		(property "Value" "LED Green"
+			(at 59.69 136.2074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5353,7 +5353,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 58.42 133.35 0)
+			(at 55.88 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5364,7 +5364,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 133.35 0)
+			(at 55.88 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5375,7 +5375,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 58.42 133.35 0)
+			(at 55.88 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5386,7 +5386,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 58.42 133.35 0)
+			(at 55.88 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5397,7 +5397,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 58.42 133.35 0)
+			(at 55.88 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5528,7 +5528,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 123.19 0)
+		(at 73.66 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5538,7 +5538,7 @@
 		(dnp no)
 		(uuid "e571bcd4-1157-439a-86b8-f54dd1834f65")
 		(property "Reference" "R79"
-			(at 78.74 121.9199 0)
+			(at 76.2 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5549,7 +5549,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 78.74 124.4599 0)
+			(at 76.2 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5560,7 +5560,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.422 123.19 90)
+			(at 71.882 123.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5571,7 +5571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 123.19 0)
+			(at 73.66 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5582,7 +5582,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 123.19 0)
+			(at 73.66 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5593,7 +5593,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 76.2 123.19 0)
+			(at 73.66 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5604,7 +5604,7 @@
 			)
 		)
 		(property "LCSC" "C2907034"
-			(at 76.2 123.19 0)
+			(at 73.66 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

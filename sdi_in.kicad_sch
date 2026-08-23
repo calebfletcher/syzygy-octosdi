@@ -1583,7 +1583,7 @@
 	(text_box "Input Active"
 		(exclude_from_sim no)
 		(at 67.31 123.19 0)
-		(size 33.02 36.83)
+		(size 38.1 36.83)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3726,7 +3726,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LED Green"
 			(at 93.98 152.7174 90)
 			(show_name no)
 			(do_not_autoplace no)
