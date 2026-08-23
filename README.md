@@ -1,12 +1,37 @@
 # syzygy-octosdi
 
-SYZYGY™ TXR4 Compatible SDI-3G Pod, with quad inputs and quad outputs.
+SYZYGY™ TXR4 Compatible 3G-SDI Pod, with quad inputs and quad outputs.
 
 Compatible with the SYZYGY Specification Version 1.1.1. The "SYZYGY™" mark is owned by Opal Kelly.
 
-![PCB Render](pcb_render.png)
+![PCB Render](docs/pcb_render.jpg)
 
-## [Interactive BOM](https://html-preview.github.io/?url=https://github.com/calebfletcher/syzygy-octosdi/blob/main/ibom.html)
+## Features
+- SYZYGY TXR4 Pod
+- 4x 3D-SDI inputs and 4x 3G-SDI outputs, all independent
+- Full-size BNC connectors
+- TI LMH0344 Cable Equalizers
+- Semtech GS2988 Cable Drivers
+- Lock/Signal Present LEDs at each BNC
+- 148.5MHz oscillator on REFCLK
+- I2C I/O expanders for all driver/equalizer control and status signals
+- SmartVIO STM32G031 microcontroller with ability to measure VIO voltage
+
+## Limitations
+- Only 3G-SDI is supported
+- There is no 148.5/1.001 MHz oscillator support
+  - The board has only been designed for fractional framerates to keep the design a bit simpler. Depending on your FPGA, there may be enough tolerance on the MGT PLL to allow fractional rate inputs to be received despite it not being the correct frequency. This is the case at least for Xilinx Ultrascale+ GTYs with a +/-1250 ppm tolerance. However, this will not work for the transmitters which require the exact frequency.
+- No reclockers on the board. It is designed to be plugged directly into an FPGA so this likely has no impact on its use.
+
+## BOM Substitutions
+While this board has been designed to use LMH0344 for the cable EQs and GS2988 for the cable drivers, there is broad compatibility across Semtech and TIs SDI portfolio. As such, some unpopulated footprints are available for passives needed for one chip or another, in particular for replacing the GS2988 with a LMH0302. See TI's SNLA280 for a full list of available substitutes for cable drivers, and SNLA283 for cable equalizers.
+
+## [Interactive BOM](https://html-preview.github.io/?url=https://github.com/calebfletcher/syzygy-octosdi/blob/main/docs/ibom.html)
+
+## Ordering Details
+Designed to meet JLCPCBs standard capabilities.
+
+Four layers, 1.6 mm, 1 oz outer/0.5 oz inner, JLC04161H-7628 stackup, controlled impedance.
 
 ## SYZYGY Pinout
 Pinout for CN1 (QTH-020-01-F-D-DP-A):

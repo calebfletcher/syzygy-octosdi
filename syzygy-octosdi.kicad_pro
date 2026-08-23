@@ -861,7 +861,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "syzygy-octosdi.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
