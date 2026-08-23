@@ -3830,6 +3830,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 148.59) (xy 259.08 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ffa98f-b850-4aa5-88f5-c1df94c4e6be")
+	)
+	(wire
+		(pts
 			(xy 259.08 25.4) (xy 250.19 25.4)
 		)
 		(stroke
@@ -4080,7 +4090,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 147.32) (xy 259.08 148.59)
+			(xy 259.08 154.94) (xy 259.08 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4297,6 +4307,16 @@
 			(type default)
 		)
 		(uuid "ea42f54f-da1f-4fb3-85c3-ba9eb9925ddc")
+	)
+	(wire
+		(pts
+			(xy 259.08 148.59) (xy 259.08 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed16cbae-873d-43e1-9414-e1ce7ed14d0f")
 	)
 	(wire
 		(pts
@@ -5067,6 +5087,16 @@
 			(justify left bottom)
 		)
 		(uuid "c869080b-e82e-4298-adf3-8d7602e00c3a")
+	)
+	(label "VIO"
+		(at 254 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cba55f55-3c49-43b3-a057-cc81cb57ef79")
 	)
 	(label "RX1{P,N}"
 		(at 201.93 33.02 180)
@@ -6034,6 +6064,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38e11fd6-130c-4a72-a923-52ff47b5bfd6")
+		(property "Reference" "TP6"
+			(at 261.62 142.7479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 261.62 145.2879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 264.16 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4551f84c-d665-4494-b008-dff4f7f20e57")
+		)
+		(instances
+			(project "syzygy-octosdi"
+				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 95.25 130.81 90)
 		(unit 1)
@@ -6895,7 +7004,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 259.08 147.32 0)
+		(at 259.08 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6905,8 +7014,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "633cc886-cea4-4e0b-b32c-e8575a6549b8")
-		(property "Reference" "TP6"
-			(at 261.62 142.7479 0)
+		(property "Reference" "TP7"
+			(at 261.62 150.3679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6917,7 +7026,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 261.62 145.2879 0)
+			(at 261.62 152.9079 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6928,7 +7037,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 264.16 147.32 0)
+			(at 264.16 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6939,7 +7048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 147.32 0)
+			(at 264.16 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6950,7 +7059,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 259.08 147.32 0)
+			(at 259.08 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6966,7 +7075,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
-					(reference "TP6")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -7390,7 +7499,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 148.59 0)
+		(at 259.08 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7401,7 +7510,7 @@
 		(fields_autoplaced yes)
 		(uuid "8896fe27-e0e3-4616-8527-ba118ce50cf6")
 		(property "Reference" "#PWR018"
-			(at 259.08 154.94 0)
+			(at 259.08 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7412,7 +7521,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 153.67 0)
+			(at 259.08 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7422,7 +7531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 148.59 0)
+			(at 259.08 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7433,7 +7542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 148.59 0)
+			(at 259.08 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7444,7 +7553,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 148.59 0)
+			(at 259.08 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8958,7 +9067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd4fa552-644a-44bd-b42e-695b0093b774")
-		(property "Reference" "TP7"
+		(property "Reference" "TP8"
 			(at 266.7 74.1679 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9019,7 +9128,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1"
-					(reference "TP7")
+					(reference "TP8")
 					(unit 1)
 				)
 			)

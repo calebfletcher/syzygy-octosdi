@@ -2382,7 +2382,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fd45eb6-f9db-41f2-a512-bd670b0d87a9")
-		(property "Reference" "TP9"
+		(property "Reference" "TP10"
 			(at 111.76 44.958 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2443,7 +2443,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494"
-					(reference "TP9")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -2721,7 +2721,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a67e93ee-cd67-4010-8a23-5e464adb24f8")
-		(property "Reference" "TP8"
+		(property "Reference" "TP9"
 			(at 102.616 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2782,7 +2782,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494"
-					(reference "TP8")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -3233,7 +3233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "faad2a4b-a7a2-4f4e-a354-2c331f1d9b60")
-		(property "Reference" "TP10"
+		(property "Reference" "TP11"
 			(at 118.11 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3294,7 +3294,7 @@
 		(instances
 			(project "syzygy-octosdi"
 				(path "/cb0cdcc9-6b9b-4b74-8146-9043de7999b1/86247bb6-a200-4434-96fd-e477d61cd494"
-					(reference "TP10")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
