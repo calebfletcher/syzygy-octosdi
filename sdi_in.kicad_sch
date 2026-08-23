@@ -3346,7 +3346,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C29266"
+		(property "LCSC" "C49210445"
 			(at 93.98 73.66 90)
 			(hide yes)
 			(show_name no)
@@ -3783,6 +3783,17 @@
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
 			(at 90.17 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C965804"
+			(at 90.17 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4804,7 +4815,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C29266"
+		(property "LCSC" "C49210445"
 			(at 93.98 68.58 90)
 			(hide yes)
 			(show_name no)
