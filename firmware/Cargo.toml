@@ -1,0 +1,25 @@
+[package]
+name = "firmware"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cortex-m = { version = "0.7", features = ["critical-section-single-core"] }
+defmt = "1"
+defmt-rtt = "1"
+embassy-stm32 = { version = "0.6", default-features = false, features = ["stm32g031g8", "memory-x"] }
+panic-probe = { version = "1", features = ["print-defmt"] }
+portable-atomic = { version = "1", features = ["critical-section"] }
+rtic = { version = "2.3", features = ["thumbv6-backend"] }
+rtic-monotonics = { version = "2.2", features = ["cortex-m-systick"] }
+stm32g0 = { version = "0.16", features = ["stm32g031", "rt"] }
+
+[profile.dev]
+opt-level = "s"
+
+[profile.release]
+codegen-units = 1
+debug = 2
+lto = true
+opt-level = "s"
+
