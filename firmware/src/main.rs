@@ -27,11 +27,12 @@ mod app {
         let p = embassy_stm32::init(Default::default());
         Mono::start(embassy_stm32::rcc::clocks(&p.RCC).sys.to_hertz().unwrap().0);
 
-        // All three MCU-driven LEDs are active high. PA2 also drives VIO_GOOD.
-        let vio_good = Output::new(p.PA2, Level::Low, Speed::Low);
+        // Assume VIO is always good; keep both polarity outputs asserted.
+        let vio_good = Output::new(p.PA2, Level::High, Speed::Low);
+        let vio_good_n = Output::new(p.PA3, Level::Low, Speed::Low);
         let user_0 = Output::new(p.PB4, Level::Low, Speed::Low);
         let user_1 = Output::new(p.PB5, Level::Low, Speed::Low);
-        blink::spawn(vio_good, user_0, user_1).ok();
+        blink::spawn(vio_good, vio_good_n, user_0, user_1).ok();
         log_vio::spawn(p.ADC1, p.PA1).ok();
 
         (Shared {}, Local {})
@@ -41,13 +42,14 @@ mod app {
     async fn blink(
         _cx: blink::Context,
         mut vio_good: Output<'static>,
+        mut vio_good_n: Output<'static>,
         mut user_0: Output<'static>,
         mut user_1: Output<'static>,
     ) {
         loop {
+            // Keep ownership of both outputs for the lifetime of the task.
             vio_good.set_high();
-            Mono::delay(1000.millis()).await;
-            vio_good.set_low();
+            vio_good_n.set_low();
 
             user_0.set_high();
             Mono::delay(1000.millis()).await;
