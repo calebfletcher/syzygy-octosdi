@@ -4,12 +4,17 @@
 use defmt_rtt as _;
 use panic_probe as _;
 
-#[rtic::app(device = stm32g0::stm32g031, peripherals = false, dispatchers = [TIM16])]
+#[rtic::app(device = embassy_stm32::pac, peripherals = false, dispatchers = [TIM16, TIM17])]
 mod app {
-    use embassy_stm32::gpio::{Level, Output, Speed};
-    use rtic_monotonics::systick::prelude::*;
+    use embassy_stm32::{
+        Peri,
+        adc::{Adc, SampleTime, VREF_CALIB_MV},
+        gpio::{Level, Output, Speed},
+        peripherals::{ADC1, PA1},
+    };
+    use rtic_monotonics::stm32::prelude::*;
 
-    systick_monotonic!(Mono, 1_000);
+    stm32_tim2_monotonic!(Mono, 1_000_000);
 
     #[shared]
     struct Shared {}
@@ -18,19 +23,16 @@ mod app {
     struct Local {}
 
     #[init]
-    fn init(cx: init::Context) -> (Shared, Local) {
+    fn init(_cx: init::Context) -> (Shared, Local) {
         let p = embassy_stm32::init(Default::default());
-        Mono::start(
-            cx.core.SYST,
-            embassy_stm32::rcc::clocks(&p.RCC).sys.to_hertz().unwrap().0,
-        );
+        Mono::start(embassy_stm32::rcc::clocks(&p.RCC).sys.to_hertz().unwrap().0);
 
         // All three MCU-driven LEDs are active high. PA2 also drives VIO_GOOD.
         let vio_good = Output::new(p.PA2, Level::Low, Speed::Low);
         let user_0 = Output::new(p.PB4, Level::Low, Speed::Low);
         let user_1 = Output::new(p.PB5, Level::Low, Speed::Low);
-        defmt::info!("Cycling VIO_GOOD, USER_LED_0, USER_LED_1 at 1 Hz");
         blink::spawn(vio_good, user_0, user_1).ok();
+        log_vio::spawn(p.ADC1, p.PA1).ok();
 
         (Shared {}, Local {})
     }
@@ -43,7 +45,6 @@ mod app {
         mut user_1: Output<'static>,
     ) {
         loop {
-            // The three dwell times add to one second. Only one LED is on at a time.
             vio_good.set_high();
             Mono::delay(1000.millis()).await;
             vio_good.set_low();
@@ -55,6 +56,30 @@ mod app {
             user_1.set_high();
             Mono::delay(1000.millis()).await;
             user_1.set_low();
+        }
+    }
+
+    #[task]
+    async fn log_vio(
+        _cx: log_vio::Context,
+        adc_peripheral: Peri<'static, ADC1>,
+        mut vio: Peri<'static, PA1>,
+    ) {
+        let mut adc = Adc::new(adc_peripheral);
+        let mut vref = adc.enable_vrefint();
+        let vref_cal = vref.calibrated_value() as u32;
+
+        loop {
+            let vref_raw = adc.blocking_read(&mut vref, SampleTime::CYCLES160_5) as u32;
+            let vio_raw = adc.blocking_read(&mut vio, SampleTime::CYCLES160_5) as u32;
+            if vref_raw != 0 {
+                let vdda_mv = VREF_CALIB_MV * vref_cal / vref_raw;
+                let vio_mv = vio_raw * vdda_mv / 4095;
+                defmt::info!("VIO: {} mV", vio_mv);
+            } else {
+                defmt::warn!("VIO ADC: VREF reading was zero");
+            }
+            Mono::delay(100.millis()).await;
         }
     }
 }

@@ -457,7 +457,6 @@ dependencies = [
  "portable-atomic",
  "rtic",
  "rtic-monotonics",
- "stm32g0",
 ]
 
 [[package]]
@@ -710,7 +709,10 @@ dependencies = [
  "cortex-m",
  "fugit",
  "portable-atomic",
+ "proc-macro2",
+ "quote",
  "rtic-time",
+ "stm32-metapac",
 ]
 
 [[package]]
@@ -785,18 +787,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e74b78632cea498cfb28386a29f8bfae7476d6570a78733eb5fecbee66c2f4ce"
 dependencies = [
  "cortex-m",
-]
-
-[[package]]
-name = "stm32g0"
-version = "0.16.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5ed022316ade89cfe624e36a3bed2d47f1b77bde32fdab699d44cc57763c2357"
-dependencies = [
- "cortex-m",
  "cortex-m-rt",
- "critical-section",
- "vcell",
 ]
 
 [[package]]

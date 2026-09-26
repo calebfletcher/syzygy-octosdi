@@ -7,12 +7,15 @@ edition = "2024"
 cortex-m = { version = "0.7", features = ["critical-section-single-core"] }
 defmt = "1"
 defmt-rtt = "1"
-embassy-stm32 = { version = "0.6", default-features = false, features = ["stm32g031g8", "memory-x"] }
+embassy-stm32 = { version = "0.6", features = [
+    "stm32g031g8",
+    "memory-x",
+    "unstable-pac",
+] }
 panic-probe = { version = "1", features = ["print-defmt"] }
 portable-atomic = { version = "1", features = ["critical-section"] }
 rtic = { version = "2.3", features = ["thumbv6-backend"] }
-rtic-monotonics = { version = "2.2", features = ["cortex-m-systick"] }
-stm32g0 = { version = "0.16", features = ["stm32g031", "rt"] }
+rtic-monotonics = { version = "2.2", features = ["stm32g031g8", "stm32_tim2"] }
 
 [profile.dev]
 opt-level = "s"
@@ -22,4 +25,3 @@ codegen-units = 1
 debug = 2
 lto = true
 opt-level = "s"
-
