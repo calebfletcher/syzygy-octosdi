@@ -33,6 +33,24 @@ Designed to meet JLCPCBs standard capabilities.
 
 Four layers, 1.6 mm, 1 oz outer/0.5 oz inner, JLC04161H-7628 stackup, controlled impedance.
 
+## SYZYGY Compatibility Table
+
+Following the pod compatibility table in [Appendix A of the SYZYGY Specification Version 1.1.1](https://syzygyfpga.io/wp-content/uploads/2023/09/Syzygy-Specification-V1p1p1.pdf):
+
+| Parameter | syzygy-octosdi |
+|-----------|----------------|
+| Type | SYZYGY Transceiver (TXR-4) |
+| Maximum 5V supply current | 0 mA |
+| Maximum 3.3V supply current | 1.2 A (provisional design budget) |
+| VIO supply voltage(s) | 1.8 V, 2.5 V, or 3.3 V |
+| Maximum VIO supply current | 10 mA (provisional design budget) |
+| Total number of I/O | 4 single-ended (S0–S3) |
+| Number of differential I/O pairs (Standard pod only) | N/A (TXR-4 pod) |
+| Transceiver lanes | 4 RX and 4 TX, plus REFCLK input |
+| Width | Single |
+
+The current budgets are conservative estimates from the schematic and component specifications; they have not been verified by measurement. The 5V pin is routed only to a test point. VIO powers the I/O side of the two expanders and the control-signal pull-ups.
+
 ## SYZYGY Pinout
 Pinout for CN1 (QTH-020-01-F-D-DP-A):
 
