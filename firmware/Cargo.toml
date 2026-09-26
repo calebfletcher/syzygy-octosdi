@@ -8,6 +8,7 @@ cortex-m = { version = "0.7", features = ["critical-section-single-core"] }
 defmt = "1"
 defmt-rtt = "1"
 embassy-stm32 = { version = "0.6", features = [
+    "defmt",
     "stm32g031g8",
     "memory-x",
     "unstable-pac",

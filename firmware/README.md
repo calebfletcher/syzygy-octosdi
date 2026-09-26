@@ -1,17 +1,19 @@
 # SmartVIO LED and VIO ADC firmware
 
-RTIC 2 keeps VIO_GOOD asserted and alternates the two user LEDs, one second each. Embassy STM32 owns the GPIO, ADC, and clock setup; TIM2 provides RTIC's monotonic clock. defmt logs are sent over RTT through the ST-Link.
+RTIC 2 keeps VIO_GOOD asserted, samples USER_LED_0's source at 10 Hz, and blinks USER_LED_1. Embassy STM32 owns the GPIO, ADC, and clock setup; TIM2 provides RTIC's monotonic clock. defmt logs are sent over RTT through the ST-Link.
 
 | Signal or indicator | STM32 pin | Behaviour |
 | --- | --- | --- |
 | VIO_GOOD and its LED (D12) | PA2 | High continuously |
 | VIO_GOOD_N | PA3 | Low continuously |
-| USER_LED_0 (D11) | PB4 | On for 1 s, then off for 1 s |
-| USER_LED_1 (D10) | PB5 | Off for 1 s, then on for 1 s |
+| USER_LED_0 (D11) | PB4 | Mirrors U6 P0.0 (SDI Out 1 SD_HD_N), sampled at 10 Hz |
+| USER_LED_1 (D10) | PB5 | Blinks on for 1 s, off for 1 s |
 
 VIO_GOOD and VIO_GOOD_N are asserted regardless of the measured voltage. VIO_GOOD also enables other board circuitry. Other board LEDs are driven by power or signal circuits, not directly by the STM32.
 
 VIO is wired directly to PA1 / ADC1_IN1. The firmware samples VIO and the internal voltage reference every 100 ms and logs VIO in millivolts. It uses the factory VREF calibration to account for the actual ADC supply voltage.
+
+At startup, I2C1 on PB6/PB7 accesses the two PCAL6416A expanders through the external VIO_I2C-to-APP_I2C bridge. U5 is at 7-bit address 0x20 and carries SDI input BYPASS, MUTE, and CD_N signals; U6 is at 0x21 and carries SDI output SD_HD_N, DISABLE_N, EQ_EN_N, and OSP_N signals. The firmware writes both configuration registers to 0xFF (all pins input), verifies them, and logs both raw port bytes and each named signal's electrical level once at startup (true = high, false = low; _N names remain active-low). Unconnected pins are omitted from the named logs. I2C errors are logged per device. After startup, U6 P0.0 is read every 100 ms to update USER_LED_0 (high = on); an I2C read error turns that LED off. The ADC is sampled on the same cycle.
 
 From this directory:
 
